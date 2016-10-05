@@ -1,0 +1,248 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calibration_Layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white4"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="?attr/TabUpLayout"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/calabration_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/left_childItems_12"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/return_bt"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="?attr/back_button1" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/main_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:id="@+id/bd_Layout_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="2" />
+
+        <LinearLayout
+            android:id="@+id/bd_Layout_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D8DDE3"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <!-- noise与vibration按钮块-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/noise_bt"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_weight="0.5"
+                    android:layout_marginRight="10dp"
+                    android:textColor="?attr/all_title_text"
+                    android:background="?attr/noise_bt"
+                    android:text="@string/Noise" />
+
+                <Button
+                    android:id="@+id/vibration_bt"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_weight="0.5"
+                    android:textColor="?attr/all_title_text"
+                    android:background="?attr/vibration_bt"
+                    android:text="@string/Vibration" />
+            </LinearLayout>
+            <!--  noise与vibration按钮块 结束 -->
+ 			<LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.2"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:layout_marginTop="10dp"
+               android:layout_gravity="center"
+               android:orientation="horizontal" >
+           <Spinner
+                android:id="@+id/hz_bdSpinner"
+                style="@style/spinner_style"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.5"
+                android:background="@drawable/shape_spinner_bg"
+                android:dropDownVerticalOffset="0.5dp"
+                android:entries="@array/calibration_NoiseHzSpinner"
+                android:spinnerMode="dropdown" />    
+           <TextView
+                android:id="@+id/hz_unit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:gravity="center"
+                android:text="Hz" />
+                
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5" /> 
+          <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:gravity="center"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:orientation="horizontal" >
+          <Spinner
+               android:id="@+id/db_bdSpinner"
+               style="@style/spinner_style"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_gravity="center_horizontal"
+               android:layout_weight="1.5"
+               android:background="@drawable/shape_spinner_bg"
+               android:dropDownVerticalOffset="0.5dp"
+               android:entries="@array/calibration_NoiseDBSpinner"
+               android:spinnerMode="dropdown" />    
+            <TextView
+               android:id="@+id/v_unit"
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_weight="0.5"
+               android:gravity="center"
+               android:text="dB" />
+                
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5" /> 
+            <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"
+               android:layout_gravity="center"
+               android:layout_marginLeft="10dp"
+               android:layout_marginRight="10dp"
+               android:orientation="horizontal" >
+          <LinearLayout
+               android:layout_width="0dp"
+               android:layout_height="match_parent"
+               android:layout_gravity="center"
+               android:layout_weight="1.5"
+               android:orientation="horizontal" >
+
+          <TextView
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:gravity="center_vertical"
+              android:layout_weight="0.5"
+              android:text="Sensi:"
+              android:inputType="number" />
+
+          <TextView
+              android:id="@+id/sensi_editText"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="1"
+              android:background="@drawable/shape_spinner_bg"
+              android:gravity="center"
+              android:inputType="number" />
+        </LinearLayout>   
+        <TextView
+              android:id="@+id/sensi_unit"
+              android:layout_width="0dp"
+              android:layout_height="match_parent"
+              android:layout_weight="0.5"
+              android:gravity="center"
+              android:text="mV/Pa" />
+                
+     	</LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.3"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical" >
+  			<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                 	android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.1" >
+                <Button
+                    android:id="@+id/start_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="?attr/start_bt"
+                    android:text="@string/calibration_st" />
+			</LinearLayout>
+			<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                 	android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1.1" >
+                <Button
+                    android:id="@+id/reject_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="?attr/reject_bt"
+                    android:textColor="#737373"
+                    android:text="@string/calibration_reject_bt" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

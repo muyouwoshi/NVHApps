@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<!--============================Signal标题 ==========================-->
+    <TextView
+        android:id="@+id/Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/Order" />
+    <LinearLayout
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false"
+        android:layout_below="@+id/Order" >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+    <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/X_Axis" />
+    
+    <TextView
+        android:id="@+id/OrderXAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="19dp"
+        android:textColor="#33FF33"/>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+    <TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="@string/Y_Axis" />
+    <TextView
+        android:id="@+id/OrderYAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="19dp"
+        android:textColor="#33FF33"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="2"/>
+
+    </LinearLayout>
+    <!-- <TextView
+        android:id="@+id/Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#465468"
+        android:layout_below="@+id/Layout"/> -->
+</RelativeLayout>

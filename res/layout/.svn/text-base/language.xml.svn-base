@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/languageLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center" >
+
+    <TableRow
+        android:id="@+id/tableRow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp" >
+
+        <LinearLayout
+            android:id="@+id/englishLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/skin_selector"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/English"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ico_gb" />
+
+            <TextView
+                android:id="@+id/English_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:text="@string/English" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imageButton3Layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/skin_selector"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ico_de" />
+
+            <TextView
+                android:id="@+id/German_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:text="@string/German" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chineseLayout4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_kuang"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/Chinese6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/france" />
+
+            <TextView
+                android:id="@+id/French_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:text="@string/French" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/chineseLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/skin_selector"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/Chinese"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ico_cn" />
+
+            <TextView
+                android:id="@+id/Chinese_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:text="@string/Chinese" />
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp" >
+
+        <LinearLayout
+            android:id="@+id/englishLayout6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_kuang"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/English6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/japan" />
+
+            <TextView
+                android:id="@+id/Japanese_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:text="@string/Japanese" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/imageButton6Layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_kuang"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/korea" />
+
+            <TextView
+                android:id="@+id/Korean_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:text="@string/Korean" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/russianLayout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/bg_kuang"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/russian"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#00000000"
+                android:clickable="false"
+                android:focusable="false"
+                android:src="@drawable/ico_ru" />
+
+            <TextView
+                android:id="@+id/Russian_tx"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.4"
+                android:text="@string/Russian" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/russianLayout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>

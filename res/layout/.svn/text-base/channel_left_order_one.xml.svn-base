@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/one_order_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    <CheckBox
+        android:id="@+id/one_order"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+		android:button="@drawable/order_check"
+		android:paddingLeft="12dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="?attr/all_title_text"
+        android:text="@string/order_unit" />
+    <CheckBox
+        android:id="@+id/two_order"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+		android:button="@drawable/order_check"
+		android:paddingLeft="12dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="16dp"
+        android:textColor="?attr/all_title_text"
+        android:text="@string/order_unit" />
+    </LinearLayout>
+  	<View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"/>
+    </LinearLayout>
+    

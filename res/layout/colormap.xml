@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ColorMap_layout"
+    android:background="?attr/colormap" >
+<!--============================ColorMap标题 ==========================-->
+    <TextView
+        android:id="@+id/ColorMap_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/all_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/ColorMap"
+        android:textColor="?attr/all_title_text"/>
+    
+    <ImageButton
+        android:id="@+id/Back_Colormap"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/back_button" />
+    
+  <!--============================开关按钮 ==========================-->   
+    <RelativeLayout
+        android:id="@+id/SwitchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/ColorMap_title" >
+    <Switch
+        android:id="@+id/ColorMapSwitchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textOff="@string/SwitchButtonOff"  
+        android:textOn="@string/SwitchButtonOn"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/Switch_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/SwitchLayout"/> 
+     <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+		android:layout_below="@+id/Switch_Line" >          
+  	<RelativeLayout
+    	android:id="@+id/Colormap_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/colormap"
+        android:layout_below="@+id/Switch_Line"> 
+        
+   
+        <!--===========================计算.显示============================-->
+
+	<LinearLayout 
+	    android:id="@+id/c_d"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:orientation="horizontal" >
+
+		<CheckBox
+		    android:id="@+id/calculation"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:textColor="?attr/all_title_text"
+		   	android:checked="true"
+		    android:textSize="16dp"
+		    android:text="@string/calculation" />
+
+		<CheckBox
+		    android:id="@+id/display"
+		    android:layout_width="0dp"
+		    android:layout_height="match_parent"
+		    android:layout_weight="1"
+		    android:textColor="?attr/all_title_text"
+		    android:enabled="false"
+		    android:textSize="16dp"
+		    android:text="@string/Display" />
+	    
+	</LinearLayout>
+	
+    <TextView
+        android:id="@+id/c_d_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/c_d"/> 
+        <!--==========================Freq.Range==========================-->
+    <TextView
+        android:id="@+id/colorMap_Freq_Range"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/FreqRange" 
+         android:layout_below="@+id/c_d_Line"
+        android:textColor="?attr/all_title_text"/>
+    
+    <Spinner
+        android:id="@+id/colorMapFreqRange_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/c_d"
+        android:layout_toLeftOf="@+id/colorMapFreqRange_KHz"
+        android:entries="@array/FFT_Freq_Range"
+        android:textColor="?attr/all_title_text"/>
+     
+     <TextView
+        android:id="@+id/colorMapFreqRange_KHz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:text="@string/KHz"
+        android:textColor="?attr/all_title_text"
+        android:layout_below="@+id/c_d"/>
+     
+    <TextView
+        android:id="@+id/colorMapFreqRange_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/colorMap_Freq_Range"/>
+ <!--==========================Overlap ==========================-->   
+     <TextView
+        android:id="@+id/colorMapOverlap"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/colorMapFreqRange_Line"
+        android:text="@string/Overlap" 
+        android:textColor="?attr/all_title_text"/>
+        
+    <EditText
+        android:id="@+id/colorMapOverlap_edit"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:digits="9876543210."
+        android:background="@drawable/input"
+        android:layout_toLeftOf="@+id/colorMapFreqRange_KHz"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/colorMapFreqRange_Line"/>
+     
+     <TextView
+        android:id="@+id/colorMapOverlap_percent"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/colorMapFreqRange_Line"
+        android:textSize="12sp"
+        android:text="@string/percent"
+        android:textColor="?attr/all_title_text"/>
+         
+    <TextView
+        android:id="@+id/colorMapOverlap_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/colorMapOverlap"/>
+    
+ <!--==========================Freq.Reslution==========================-->     
+    <TextView
+        android:id="@+id/colorMapFreq_Res"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/colorMapOverlap_Line"
+        android:text="@string/FreqResolution" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <Spinner
+        android:id="@+id/colorMapFreqRes_spinner"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/colorMapOverlap_Line"
+        android:textColor="?attr/all_title_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"/>
+     
+     <TextView
+        android:id="@+id/colorMapFreqRes_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/colorMapOverlap_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="?attr/all_title_text"/>
+         
+    <TextView
+        android:id="@+id/colorMapFreqRes_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/colorMapFreq_Res"/>
+    
+ <!--==========================Freq.Weight==========================-->     
+     <TextView
+        android:id="@+id/Freq_Weight"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/colorMapFreqRes_Line"
+        android:text="@string/FreqWeight" 
+        android:textColor="?attr/all_title_text"/>
+     
+    <Spinner
+        android:id="@+id/ColorMapFreqWeight_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:layout_below="@+id/colorMapFreqRes_Line"
+        android:entries="@array/Freq_Weight"
+        android:textColor="?attr/all_title_text"/>
+     
+     <!-- <TextView
+        android:id="@+id/FreqWeight_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/FreqRes_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="#FFFEFF"/>  -->
+          
+    <TextView
+        android:id="@+id/colorMapFreqWei_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Freq_Weight"/>
+    
+ <!--==========================Averaging==========================-->        
+     <TextView
+        android:id="@+id/colorMapAveraging"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/colorMapFreqWei_Line"
+        android:text="@string/Averaging" 
+        android:textColor="?attr/all_title_text"/>
+     
+   	<EditText
+       	android:id="@+id/colorMapAveraging_edit"
+       	android:layout_width="100dp"
+       	android:layout_height="25dp"
+       	android:layout_marginTop="5dp"
+       	android:background="@drawable/input"
+       	android:layout_below="@+id/colorMapFreqWei_Line"
+       	android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:digits="9876543210."
+        android:inputType="numberDecimal"
+        android:singleLine="true" /> 
+       	<!--  android:gravity="center"
+       		android:textSize="12sp"
+       		android:textColor="?attr/all_title_text" -->
+    <TextView
+        android:id="@+id/colorMapAvera_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/colorMapAveraging"/>
+    
+ <!--==========================Window==========================-->      
+    <TextView
+        android:id="@+id/colorMapWindow"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/colorMapAvera_Line"
+        android:text="@string/Window" 
+        android:textColor="?attr/all_title_text"/>
+    
+   <Spinner
+        android:id="@+id/colorMapWindow_spinner"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/colorMapAvera_Line"
+        android:textColor="?attr/all_title_text"
+        android:entries="@array/Window"/>
+     
+     <!-- <TextView
+        android:id="@+id/Window_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Avera_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="#FFFEFF"/> --> 
+    <TextView
+        android:id="@+id/colorMapWindow_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/colorMapWindow"/>
+         <!--============================Freq.Weight==========================-->  
+    <!-- <TextView
+        android:id="@+id/Freq_Weight"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/c_d_Line"
+        android:text="@string/FreqWeight"
+        android:textColor="#FFFEFF" />
+     <Spinner
+        android:id="@+id/ColorMapFreqWeight_spinner"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/c_d_Line"
+        android:entries="@array/Freq_Weight"/>
+    <TextView
+        android:id="@+id/FreqWei_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Freq_Weight"/> -->
+ <!--============================X_Axis==========================-->       
+    <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/colorMapWindow_Line"
+        android:text="@string/X_Axis"
+        android:textColor="?attr/all_title_text"/>
+   <Spinner
+        android:id="@+id/ColorMapXAxis_spinner"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:textColor="?attr/all_title_text"
+        android:layout_below="@+id/colorMapWindow_Line"
+        android:entries="@array/SplOrColor_X_Axis"/>
+    <TextView
+        android:id="@+id/XAxis_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/X_Axis"/>
+ <!--============================Y_Axis==========================-->    
+ 	<TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/XAxis_Line"
+        android:text="@string/Y_Axis"
+        android:textColor="?attr/all_title_text"/>
+    <Spinner
+        android:id="@+id/ColorMapYAxis_spinner"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:textColor="?attr/all_title_text"
+        android:layout_below="@+id/XAxis_Line"
+        android:entries="@array/Hz"/>
+    <TextView
+        android:id="@+id/YAxis_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Y_Axis"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

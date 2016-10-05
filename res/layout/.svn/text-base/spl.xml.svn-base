@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:id="@+id/SPL_layout"
+    android:background="?attr/spl" >
+<!--============================SPL标题 ==========================-->
+    <TextView
+        android:id="@+id/SPL_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/all_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/SPL" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <ImageButton
+        android:id="@+id/Back_Spl"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/back_button" />
+ <!--============================开关按钮 ==========================-->   
+    <RelativeLayout
+        android:id="@+id/SwitchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/SPL_title" >
+    <Switch
+        android:id="@+id/SPLSwitchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textOff="@string/SwitchButtonOff"  
+        android:textOn="@string/SwitchButtonOn"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/Switch_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/SwitchLayout"/>
+<!--============================Freq.Weight==========================-->
+	<RelativeLayout
+    	android:id="@+id/SPL_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/spl"
+        android:layout_below="@+id/Switch_Line"> 
+    <TextView
+        android:id="@+id/Freq_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/FreqWeight"
+        android:textColor="?attr/all_title_text"/>
+    
+     <Spinner
+         android:id="@+id/SPLFreqWeight_spinner"
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:layout_alignParentRight="true"
+         android:entries="@array/Freq_Weight"/>
+    
+    <TextView
+        android:id="@+id/Freq_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Freq_Weight"/>
+<!--============================Time Weight==========================-->
+    <TextView
+        android:id="@+id/Time_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Freq_Line"
+        android:text="@string/TimeWeight" 
+        android:textColor="?attr/all_title_text"/>
+    <Spinner
+        android:id="@+id/SPLTimeWeight_spinner"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Freq_Line"
+        android:entries="@array/Time_Weight"/>
+    
+    <TextView
+        android:id="@+id/Time_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Time_Weight"/>
+ <!--============================X_Axis==========================-->   
+    <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Time_Line"
+        android:text="@string/X_Axis" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <Spinner
+        android:id="@+id/SPLXAxis_spinner"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Time_Line"
+        android:entries="@array/SplOrColor_X_Axis"/>
+    
+    <TextView
+        android:id="@+id/X_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/X_Axis"/>
+ <!--============================Y_Axis==========================-->    
+ 	<TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/X_Line"
+        android:text="@string/Y_Axis"
+        android:textColor="?attr/all_title_text" />
+    <Spinner
+        android:id="@+id/SPLYAxis_spinner"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/X_Line"
+        android:entries="@array/Y_Axis"/>
+    <TextView
+        android:id="@+id/Y_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Y_Axis"/>
+</RelativeLayout>
+</RelativeLayout>

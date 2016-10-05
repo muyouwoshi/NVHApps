@@ -1,0 +1,44 @@
+obj/local/armeabi/objs/AI/ArticulationIndex.o: jni/ArticulationIndex.cpp \
+ jni/ArticulationIndex.h jni/ThirdOctave.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/stdint.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/sys/_types.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/machine/_types.h \
+ jni/Common.h jni/AIInterface.h \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/functional \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/vector \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/memory \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/numeric \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm \
+ D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/assert.h \
+ jni/MeanMax.h \
+ D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/android/log.h
+
+jni/ArticulationIndex.h:
+
+jni/ThirdOctave.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/stdint.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/sys/_types.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/machine/_types.h:
+
+jni/Common.h:
+
+jni/AIInterface.h:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/functional:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/vector:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/memory:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/numeric:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:
+
+D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/assert.h:
+
+jni/MeanMax.h:
+
+D:/android-ndk-r10b/platforms/android-19/arch-arm/usr/include/android/log.h:

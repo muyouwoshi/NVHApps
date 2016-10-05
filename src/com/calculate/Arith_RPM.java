@@ -1,0 +1,104 @@
+package com.calculate;
+
+import java.util.List;
+
+public class Arith_RPM extends Arith{
+	private int mNativeRPM;
+	private int mNativeRPMCalc;
+
+	static {
+		System.loadLibrary("RPM");
+	}
+
+	public Arith_RPM() {
+		mNativeRPM = init();
+		mNativeRPMCalc = intiCalc();
+	}
+
+	@Override
+	protected void finalize() {
+		try {
+			finalizer(mNativeRPM);
+		} finally {
+			try {
+				super.finalize();
+			} catch (Throwable e) {
+				e.printStackTrace();
+			}
+		}
+	}
+
+	public void InitTacho(double fs) {
+		native_InitTacho(mNativeRPM, fs);
+	}
+
+	public void DecodeTacho(int[] data, int samples) {
+		try {
+			native_DecodeTacho(mNativeRPM, data, samples);
+		} catch (Throwable e) {
+			e.printStackTrace();
+		}
+	}
+
+	public boolean ifHaveCalcTachoResult(double fs, int[] data, int samples) {
+		InitTacho(fs);
+		DecodeTacho(data, samples);
+		float[] rpmdata = getRPM();
+		if (rpmdata == null) {
+			rpmdata = new float[1];
+		}
+		if (native_InitCalcTacho(mNativeRPMCalc, fs, rpmdata, rpmdata.length)) {
+			return native_HaveRPMData(mNativeRPMCalc);
+		} else {
+			return false;
+		}
+	}
+
+	public float[] getRPM() {
+		return native_getRPM(mNativeRPM);
+	}
+
+	public String getRPMFFTData(List<float[]> fftResult,double time_interval) {
+		return native_getRPMFFTData(mNativeRPMCalc,fftResult,fftResult.size(),time_interval);
+	}
+
+	public float[] getRPMAIData(float[] fftResult,int time_interval) {
+		return native_getRPMAIData(mNativeRPMCalc,fftResult,fftResult.length,time_interval);
+	}
+	public double[] getRPMSPLData(double[] fftResult,int time_interval) {
+		return native_getRPMSPLData(mNativeRPMCalc,fftResult,fftResult.length,time_interval);
+	}
+	public float[] getRPMRange() {
+		return native_getRPMRange(mNativeRPMCalc);
+	}
+
+	private native int init();
+
+	private native int intiCalc();
+
+	private native void finalizer(int nRPM);
+
+	private native float[] native_getRPM(int nRPM);
+
+	private native void native_InitTacho(int nRPM, double fs);
+
+	private native void native_DecodeTacho(int nRPM, int[] data, int samples);
+
+	private native boolean native_InitCalcTacho(int mNativeRPMCalc, double fs, float[] rpmdata, int count);
+
+	private native boolean native_HaveRPMData(int mNativeRPMCalc);
+
+	private native float[] native_getRPMRange(int mNativeRPMCalc);
+
+	private native String native_getRPMFFTData(int mNativeRPMCalc,List<float[]> fftResult,int fftResultSize,double time_interval);
+
+	private native float[] native_getRPMAIData(int mNativeRPMCalc,float[] ai_result,int aiResultSize,int time_interval);
+	
+	private native double[] native_getRPMSPLData(int mNativeRPMCalc,double[] spl_result,int splresultsize,int time_interval);
+
+	@Override
+	public void resetResult() {
+		// TODO Auto-generated method stub
+		
+	}
+}

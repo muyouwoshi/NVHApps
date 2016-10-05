@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/OCT_layout"
+    android:background="?attr/oct" >
+<!--============================OCT标题 ==========================-->
+    <TextView
+        android:id="@+id/OCT_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/all_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/OCT" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <ImageButton
+        android:id="@+id/Back_Oct"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/back_button"/>
+  <!--============================开关按钮 ==========================-->   
+    <RelativeLayout
+        android:id="@+id/SwitchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/OCT_title" >
+    <Switch
+        android:id="@+id/OCTSwitchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+            android:textOff="@string/SwitchButtonOff"  
+        android:textOn="@string/SwitchButtonOn"/>
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/Switch_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/SwitchLayout"/>   
+<!--============================Band Type ==========================-->
+	<RelativeLayout
+    	android:id="@+id/OCT_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?attr/oct"
+        android:layout_below="@+id/Switch_Line"> 
+    <TextView
+        android:id="@+id/Band_Type"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/BandType" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <Spinner
+        android:id="@+id/OCTBandType_spinner"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:entries="@array/Band_Type"/>
+    
+    <TextView
+        android:id="@+id/Band_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Band_Type"/>
+    <!--============================Freq.Weight==========================-->
+
+    <TextView
+        android:id="@+id/Freq_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/FreqWeight"
+        android:layout_below="@+id/Band_Line"
+        android:textColor="?attr/all_title_text" />
+    
+     <Spinner
+         android:id="@+id/OCTFreqWeight_spinner"
+         android:layout_width="90dp"
+         android:layout_height="wrap_content"
+         android:layout_marginRight="10dp"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/Band_Line"
+         android:entries="@array/Freq_Weight"/>
+    
+    <TextView
+        android:id="@+id/Freq_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Freq_Weight"/>
+
+    
+
+ <!--============================X_Axis ==========================-->    
+    <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Freq_Line"
+        android:text="@string/X_Axis" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <Spinner
+        android:id="@+id/OCTXAxis_spinner"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Freq_Line"
+        android:entries="@array/Hz"/>
+    <TextView
+        android:id="@+id/X_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/X_Axis"/>
+    
+ <!--============================Y_Axis ==========================--> 
+ 	<TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/X_Line"
+        android:text="@string/Y_Axis" 
+        android:textColor="?attr/all_title_text"/>
+ 	
+   <Spinner
+        android:id="@+id/OCTYAxis_spinner"
+        android:layout_width="90dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/X_Line" 
+        android:entries="@array/Y_Axis"/>
+   
+    <TextView
+        android:id="@+id/Y_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Y_Axis"/>
+</RelativeLayout>
+</RelativeLayout>

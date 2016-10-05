@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_alignParentRight="true"
+    android:paddingTop="8dp"
+     android:id="@+id/pop_window"
+     
+    >
+  <!--  android:background="?attr/pop_window1"   -->
+	
+	   <ListView
+	      android:id="@+id/listview"
+	      android:layout_width="fill_parent"
+	      android:layout_height="wrap_content" 
+	      android:cacheColorHint="#00000000"
+	      android:listSelector="#2A5285"
+	      android:scrollbars="vertical"
+          android:dividerHeight="0.5dp">
+	   </ListView>
+		
+    	<!-- 隐藏滚动条 android:scrollbars="none"
+    	android:scrollbarFadeDuration="0"
+    	android:fadeScrollbars="true"
+        android:fadingEdge="none"
+	    android:scrollbarSize="20dp"
+	    android:divider="#2A5285"   
+        android:fadeScrollbars="false"-->        
+    	        
+</RelativeLayout>

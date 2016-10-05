@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cuiweiyou.glideview.view.CVU_GlideItemView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 主目录/Template/ABC 下的item为SwipeListView，这是这个SLV的item，front和background的高度要一致，否则很丑 -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cvu_itemline" />
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/item_background" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="38dp" -->
+<!--         android:gravity="center_vertical|right" -->
+<!--         android:orientation="horizontal" > -->
+
+<!--         <Button -->
+<!--             android:id="@+id/item_remove" -->
+<!--             android:layout_width="70dp" -->
+<!--             android:layout_height="36dp" -->
+<!--             android:layout_gravity="center" -->
+<!--             android:layout_marginRight="10dp" -->
+<!--             android:background="@drawable/cvu_btn_del" -->
+<!--                 android:padding="0dp" -->
+<!--             android:text="删除" -->
+<!--             android:textColor="@color/text_color" /> -->
+<!--     </LinearLayout> -->
+
+    <LinearLayout
+        android:id="@+id/item_front"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:background="@drawable/cvu_selector_item_list"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="60dp"
+        android:paddingRight="10dp" >
+
+        <TextView
+            android:id="@+id/item_template_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="文件夹"
+            android:textColor="@color/cvu_text_color" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/cvu_itemline" />
+
+</com.cuiweiyou.glideview.view.CVU_GlideItemView>

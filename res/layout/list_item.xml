@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"  
+    android:orientation="horizontal" 
+    android:layout_height="40dp"    >   
+ <RelativeLayout
+    android:layout_width="0dp"
+    android:layout_weight="1"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"> 
+<!-- <ImageView       
+    android:layout_width="60dp"      
+    android:layout_height="wrap_content" 
+    android:layout_gravity="center"  
+    android:background="@drawable/ico_wifi_sel"   
+    android:visibility="gone"
+    android:layout_marginLeft="10dp"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:id="@+id/ItemImage"/>    -->   
+    <CheckBox
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:button="@drawable/checked"
+        android:layout_marginLeft="20dp"
+    	android:layout_centerVertical="true"
+    	android:focusable="false"
+    	android:clickable="false"
+    	android:id="@+id/ItemImage" />
+    <TextView          
+    	android:layout_height="40dp"   
+    	android:layout_marginLeft="10dp"
+    	android:gravity="center_vertical"
+    	android:textColor="#333666"
+    	android:textSize="16dp"      
+    	android:layout_width="wrap_content"   
+    	android:layout_toRightOf="@+id/ItemImage"
+    	android:layout_centerVertical="true"   
+    	android:id="@+id/ItemTitle" /> 
+
+    </RelativeLayout>
+    <TextView        
+    	android:layout_width="0dp"  
+    	android:layout_weight="1"
+    	android:layout_height="match_parent"
+    	android:gravity="center"
+    	android:textColor="#333666"
+    	android:textSize="16dp"      
+    	android:id="@+id/Main_Configuration"
+    	android:text="Main_Configuration" />  
+
+</LinearLayout>

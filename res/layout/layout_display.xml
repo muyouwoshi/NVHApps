@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/page_layout"
+    android:background="@drawable/page_02"
+    android:layout_weight="1" >
+<RelativeLayout
+   		android:layout_width="wrap_content"
+    	android:layout_height="0dp"
+    	android:layout_marginLeft="10dp"
+    	android:layout_marginRight="10dp"
+    	android:orientation="horizontal"
+    	android:layout_weight="1">
+    <TextView
+        android:id="@+id/figure_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Graph"
+        android:gravity="center"
+        android:layout_alignTop="@+id/figure_spinner"
+        android:layout_alignBottom="@+id/figure_spinner"
+        android:textColor="#DBDBDB"
+        android:textSize="14sp" />
+    <Spinner
+        android:id="@+id/figure_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/figure_textview"
+        android:entries="@array/figure_number"/>
+    </RelativeLayout>
+     <View
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="1dp"
+    	android:layout_marginRight="3dp"
+        android:background="#D0D0D0"/>
+     <TextView
+        android:id="@+id/algorithm_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="10dp"
+        android:text="@string/Algorithm"
+        android:textColor="#DBDBDB"
+        android:gravity="center_vertical"
+        android:textSize="14sp" />
+   <LinearLayout
+       	android:id="@+id/main_layout"
+   		android:layout_width="match_parent"
+    	android:layout_height="0dp"
+    	android:layout_marginTop="10dp" 
+    	android:layout_marginLeft="5dp"
+    	android:layout_marginRight="8dp"
+    	android:layout_marginBottom="10dp"
+    	android:baselineAligned="false"
+    	android:orientation="horizontal"
+    	android:background="#EAEAEA"
+    	android:layout_weight="2">
+    	<LinearLayout
+    	    android:id="@+id/left_layout"
+   			android:layout_width="0dp"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical"
+    		android:layout_weight="1">
+        <TextView
+        	android:id="@+id/algorithm_textView1"
+        	android:layout_width="match_parent"
+        	android:layout_height="0dp"
+        	android:layout_weight="1"
+        	android:background="@drawable/bg_suanfa2"
+        	android:gravity="center"
+        	android:textColor="#DBDBDB"
+        	android:text="ChannelWatch" />
+    	<TextView
+        	android:id="@+id/algorithm_textView2"
+        	android:layout_width="match_parent"
+        	android:layout_height="0dp"
+        	android:layout_weight="1"
+        	android:visibility="gone"
+        	android:background="@drawable/bg_suanfa2"
+        	android:gravity="center"
+        	android:textColor="#DBDBDB"
+        	android:text="ChannelWatch" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/right_layout"
+   			android:layout_width="0dp"
+    		android:layout_height="match_parent"
+    		android:orientation="vertical"
+    		android:visibility="gone"
+    		android:layout_weight="1">
+    	<TextView
+        	android:id="@+id/algorithm_textView3"
+        	android:layout_width="match_parent"
+        	android:layout_height="0dp"
+        	android:layout_weight="1"
+        	android:background="@drawable/bg_suanfa2"
+        	android:gravity="center"
+        	android:visibility="gone"
+        	android:textColor="#DBDBDB"
+        	android:text="ChannelWatch" />
+    	<TextView
+        	android:id="@+id/algorithm_textView4"
+        	android:layout_width="match_parent"
+        	android:layout_height="0dp"
+        	android:layout_weight="1"
+        	android:background="@drawable/bg_suanfa2"
+        	android:gravity="center"
+        	android:visibility="gone"
+        	android:textColor="#DBDBDB"
+        	android:text="ChannelWatch" />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

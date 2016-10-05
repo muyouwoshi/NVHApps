@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--============================ColorMap标题 ==========================-->
+    <TextView
+        android:id="@+id/ColorMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/ColorMap" />
+       <LinearLayout
+        android:id="@+id/colorMapLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/ColorMap"
+        android:orientation="horizontal" >
+        <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        <TextView
+        android:id="@+id/colorMapFreq_Range"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/FreqRange" />
+    
+    <TextView
+        android:id="@+id/colorMapFreqRange_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+        </LinearLayout>
+         <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/colorMapOverlap"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="@string/Overlap" />  
+        
+    <TextView
+        android:id="@+id/colorMapOverlap_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/colorMapFreq_Res"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="@string/FreqResolution" />
+    
+    <TextView
+        android:id="@+id/colorMapFreqRes_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+    </LinearLayout>
+
+        </LinearLayout>
+       <LinearLayout
+        android:id="@+id/colorMapLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/colorMapLayout1"
+        android:orientation="horizontal" >
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/colorMapFreq_Weight"
+             android:layout_width="wrap_content"
+             android:layout_height="35dp"
+             android:layout_marginLeft="5dp"
+             android:gravity="center_vertical"
+             android:text="@string/FreqWeight" />
+
+         <TextView
+             android:id="@+id/colorMapFreqWeight_textview"
+             android:layout_width="wrap_content"
+             android:layout_height="35dp"
+             android:layout_marginLeft="10dp"
+             android:text="TextView"
+             android:textColor="#33FF33" />
+     </LinearLayout>
+     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/colorMapAveraging"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/Averaging" />
+    
+    <TextView
+        android:id="@+id/colorMapAveraging_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"/>
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"
+         android:orientation="horizontal" >
+
+         <TextView
+             android:id="@+id/colorMapWindow"
+             android:layout_width="wrap_content"
+             android:layout_height="35dp"
+             android:layout_marginLeft="5dp"
+             android:gravity="center_vertical"
+             android:text="@string/Window" />
+
+         <TextView
+             android:id="@+id/colorMapWindow_textview"
+             android:layout_width="wrap_content"
+             android:layout_height="35dp"
+             android:layout_marginLeft="10dp"
+             android:textColor="#33FF33" />
+     </LinearLayout>
+     
+	</LinearLayout>
+     <LinearLayout
+        android:id="@+id/colorMapLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/colorMapLayout2"
+        android:orientation="horizontal">
+     <!--  <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+     <TextView
+        android:id="@+id/colorMapFreq_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/FreqWeight" />
+     <TextView
+        android:id="@+id/ColorMapFreqWeight_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>   
+      </LinearLayout> -->
+      <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/X_Axis" />
+   	<TextView
+        android:id="@+id/ColorMapXAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+     <TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/Y_Axis" />
+    <TextView
+        android:id="@+id/ColorMapYAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+    </LinearLayout>
+    <LinearLayout
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="1"/>
+    </LinearLayout>
+
+     <TextView
+        android:id="@+id/Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#465468"
+        android:layout_below="@+id/colorMapLayout3"/>
+</RelativeLayout>

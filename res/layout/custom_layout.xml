@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_common_bg"
+    android:padding="5dp"
+    android:gravity="center" >
+    
+    <RelativeLayout 
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+    	android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/map_num_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/Graph" />
+        <Spinner
+            android:id="@+id/map_num_spinner"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:entries="@array/custom_layout_num"
+            android:layout_toRightOf="@+id/map_num_text" />
+
+    </RelativeLayout>
+    
+    <View 
+        android:id="@+id/customLine"
+        android:layout_width="200dp"
+        android:layout_height="0.5dp"
+        android:background="#ABAEB4"
+        android:layout_below="@+id/title"/>
+    
+    <LinearLayout 
+        android:id="@+id/custom_layout_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/customLine"
+        android:baselineAligned="false"
+        android:gravity="center"
+    	android:background="#FFFFFF"
+        android:orientation="horizontal">
+        
+        <LinearLayout 
+            android:id="@+id/viewlayout_left"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/custom_textview_ul"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            	android:layout_weight="1"
+                android:gravity="center"
+                android:text="ChannelWatch" />
+
+            <TextView
+                android:id="@+id/custom_textview_dl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            	android:layout_weight="1"
+            	android:visibility="gone"
+                android:gravity="center"
+                android:text="ChannelWatch" />
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:id="@+id/viewlayout_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/custom_textview_ur"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            	android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="ChannelWatch" />
+
+            <TextView
+                android:id="@+id/custom_textview_dr"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            	android:layout_weight="1"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="ChannelWatch" />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/custom_layout_save"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/custom_layout_content"
+        android:background="?attr/copy"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="@string/Save" />
+</RelativeLayout>

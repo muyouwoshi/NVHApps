@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 主目录/template/ item(2个，Data2、ABC) -->
+
+    <LinearLayout
+         android:id="@+id/cvu_selector_root"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cvu_expitemheight"
+      
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp" >
+
+        <TextView
+            android:id="@+id/templateroot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="DataN/Tpl"
+           />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+obj/local/armeabi/objs/RPM/rpm.o: jni/rpm.cpp jni/rpm.h \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/cstdint \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/vector \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/memory \
+ D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm
+
+jni/rpm.h:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/cstdint:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/vector:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/memory:
+
+D:/android-ndk-r10b/sources/cxx-stl/gnu-libstdc++/4.8/include/algorithm:

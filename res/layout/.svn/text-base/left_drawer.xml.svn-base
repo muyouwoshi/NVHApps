@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/leftDrawerLayout"
+    android:background="?attr/lef_draw"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+		android:layout_above="@+id/bottombutton" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+			<left.drawer.LeftExplandableListView
+				android:id="@+id/expandableList"
+				android:layout_width="match_parent"
+				android:layout_height="170dp">
+			</left.drawer.LeftExplandableListView>
+
+			<Button
+			    android:id="@+id/SaveTemplate"
+			    android:layout_width="190dp"
+			    android:layout_height="40dp"
+			    android:layout_below="@+id/expandableList"
+				android:background="?attr/bt_gray_selector"
+			    android:layout_marginTop="15dp"
+			    android:layout_centerInParent="true"
+			    android:text="@string/SaveTemplate"
+				android:textColor="#FFFEFF" />
+
+			<Button
+			    android:id="@+id/PreView"
+			    android:layout_width="wrap_content"
+			    android:layout_height="40dp"
+			    android:layout_below="@+id/SaveTemplate"
+				android:background="?attr/bt_blue_selector"
+			    android:layout_marginTop="10dp"
+			    android:layout_centerInParent="true"
+			    android:layout_alignLeft="@+id/SaveTemplate"
+			    android:layout_alignRight="@+id/SaveTemplate"
+			    android:text="@string/Preview"
+				android:textColor="#FFFEFF" />
+            
+        </RelativeLayout>
+    </ScrollView>
+    
+    <LinearLayout
+        android:id="@+id/bottombutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+    	android:background="?attr/background1"
+        android:layout_alignParentBottom="true" >
+<!-- android:background="#3C404C""?attr/mycolor" -->
+        <Button
+            android:id="@+id/skin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+           android:background="?attr/btn_linealayout1"
+            android:text="@string/Skin"
+            android:layout_margin="0.5dp"
+            android:textSize="14dp"
+			android:textColor="#FFFEFF" />
+    <!--        <TextView 
+	        android:id="@+id/ggg1"
+	         android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="?attr/mytext12"/>   -->
+        <Button
+            android:id="@+id/conn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+           android:background="?attr/btn_linealayout1"
+            android:text="@string/Connection"
+            android:layout_margin="0.5dp"
+            android:textSize="14dp"
+			android:textColor="#FFFEFF" />
+        
+        <Button
+            android:id="@+id/lan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:background="?attr/btn_linealayout1"
+            android:text="@string/Language"
+            android:textSize="14dp"
+            android:layout_margin="0.5dp"
+			android:textColor="#FFFEFF" />
+        
+        <Button
+            android:id="@+id/setup"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+           	android:background="?attr/btn_linealayout1"
+            android:text="@string/Set"
+            android:textSize="14dp"
+            android:layout_margin="0.5dp"
+			android:textColor="#FFFEFF" />
+
+    </LinearLayout>
+</RelativeLayout>

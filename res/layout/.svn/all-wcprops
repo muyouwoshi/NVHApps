@@ -1,0 +1,743 @@
+K 25
+svn:wc:ra_dav:version-url
+V 274
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8143/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout
+END
+language.xml
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6840/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/language.xml
+END
+cvu_item_template_root.xml
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_template_root.xml
+END
+cvu_item_navi_start.xml
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7739/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_navi_start.xml
+END
+rpm_tachometer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7323/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/rpm_tachometer.xml
+END
+right_filelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5503/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/right_filelist.xml
+END
+rpm_digit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6474/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/rpm_digit.xml
+END
+left_father_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/left_father_item.xml
+END
+custom_dialog_cursor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6637/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/custom_dialog_cursor.xml
+END
+decimal_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7620/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/decimal_setting.xml
+END
+skin_pop_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8131/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/skin_pop_list_item.xml
+END
+cvu_item_template_child.xml
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6603/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_template_child.xml
+END
+channel_pager12.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5248/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channel_pager12.xml
+END
+popwindow_common.xml
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6190/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/popwindow_common.xml
+END
+activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7662/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/activity_main.xml
+END
+wifi_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6585/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/wifi_list_item.xml
+END
+set_preview.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8119/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/set_preview.xml
+END
+myspinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5447/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/myspinner.xml
+END
+rangecontrol_autorange.xml
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7614/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/rangecontrol_autorange.xml
+END
+rpm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/rpm.xml
+END
+analog_display_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7531/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/analog_display_settings.xml
+END
+analog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7588/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/analog.xml
+END
+wifipasd_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6199/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/wifipasd_dialog.xml
+END
+right_drawer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5789/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/right_drawer.xml
+END
+layout_display_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7531/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/layout_display_settings.xml
+END
+ruler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5273/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/ruler.xml
+END
+customtab_preference.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/4819/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/customtab_preference.xml
+END
+preview_rpm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6991/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_rpm.xml
+END
+channel_left_order_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7531/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channel_left_order_one.xml
+END
+left_algorithm_popwindow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 303
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6462/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/left_algorithm_popwindow.xml
+END
+skin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 283
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7980/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/skin.xml
+END
+cvu_lcm_item_template_child.xml
+K 25
+svn:wc:ra_dav:version-url
+V 306
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7726/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_lcm_item_template_child.xml
+END
+common_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5207/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/common_layout.xml
+END
+preview_ai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6991/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_ai.xml
+END
+preview_signal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6991/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_signal.xml
+END
+cvu_glide_item_top.xml
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_glide_item_top.xml
+END
+cvu_view_createproject.xml
+K 25
+svn:wc:ra_dav:version-url
+V 301
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7350/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_view_createproject.xml
+END
+chan_page_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5762/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/chan_page_one.xml
+END
+channel_pager64.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5284/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channel_pager64.xml
+END
+bottom_drawer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/bottom_drawer.xml
+END
+spiner_item_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5898/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/spiner_item_layout.xml
+END
+x_axis.xml
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7224/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/x_axis.xml
+END
+spiner_window_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7708/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/spiner_window_layout.xml
+END
+channel_pager1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5763/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channel_pager1.xml
+END
+analog_list.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7095/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/analog_list.xml
+END
+acquisition.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7557/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/acquisition.xml
+END
+left_child_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7557/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/left_child_item.xml
+END
+cvu_view_showlogfiledialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7788/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_view_showlogfiledialog.xml
+END
+equipment.xml
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6873/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/equipment.xml
+END
+cvu_item_rootlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_rootlist.xml
+END
+channel_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6771/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channel_order.xml
+END
+landscrpe_driving.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5811/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/landscrpe_driving.xml
+END
+channel_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/4819/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channel_setting.xml
+END
+dialog_save.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7207/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/dialog_save.xml
+END
+list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6873/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/list_item.xml
+END
+dialog_del.xml
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7531/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/dialog_del.xml
+END
+custom_dialog_legend.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6225/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/custom_dialog_legend.xml
+END
+preview_order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6991/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_order.xml
+END
+digital.xml
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6340/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/digital.xml
+END
+colormap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/colormap.xml
+END
+pre_trigger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8119/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/pre_trigger.xml
+END
+drive_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 291
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5370/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/drive_dialog.xml
+END
+dialog_custom_tab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/dialog_custom_tab.xml
+END
+oct.xml
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/oct.xml
+END
+cvu_glide_item_bottom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7859/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_glide_item_bottom.xml
+END
+preview_digital.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7215/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_digital.xml
+END
+portrait_driving.xml
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5151/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/portrait_driving.xml
+END
+pop_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6462/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/pop_list_item.xml
+END
+y_axis.xml
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7224/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/y_axis.xml
+END
+cvu_item_templatelist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7693/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_templatelist.xml
+END
+ai.xml
+K 25
+svn:wc:ra_dav:version-url
+V 281
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/ai.xml
+END
+signal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/signal.xml
+END
+left_drawer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7685/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/left_drawer.xml
+END
+con_pop_list_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8096/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/con_pop_list_item.xml
+END
+preview_oct.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6991/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_oct.xml
+END
+big_channel_pager12.xml
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5248/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/big_channel_pager12.xml
+END
+drawpageviews_autorange.xml
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/4382/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/drawpageviews_autorange.xml
+END
+replay_bt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 288
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8083/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/replay_bt.xml
+END
+preference_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6106/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preference_dialog.xml
+END
+preview_order_unit.xml
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6991/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_order_unit.xml
+END
+auto_range.xml
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8083/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/auto_range.xml
+END
+layout_display.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7405/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/layout_display.xml
+END
+cvu_item_projectlist_step1.xml
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_projectlist_step1.xml
+END
+cvu_item_projectlist_step2.xml
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_projectlist_step2.xml
+END
+set_preview_channel.xml
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7755/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/set_preview_channel.xml
+END
+spl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/spl.xml
+END
+preview_colormap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7494/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_colormap.xml
+END
+cvu_item_projectlist_step3.xml
+K 25
+svn:wc:ra_dav:version-url
+V 305
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_projectlist_step3.xml
+END
+wifi_dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7711/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/wifi_dialog.xml
+END
+cvu_item_navi_go.xml
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7739/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_navi_go.xml
+END
+driving_mode_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/driving_mode_activity.xml
+END
+drive_channel_pager12.xml
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5246/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/drive_channel_pager12.xml
+END
+fft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/fft.xml
+END
+channelwatching.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/4627/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channelwatching.xml
+END
+cvu_view_dialog_save.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7714/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_view_dialog_save.xml
+END
+anologspinner.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5879/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/anologspinner.xml
+END
+trigger.xml
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7531/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/trigger.xml
+END
+dialog_algorithm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6194/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/dialog_algorithm.xml
+END
+activitymain_context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/activitymain_context.xml
+END
+preview_spl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6997/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_spl.xml
+END
+custom_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 292
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7557/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/custom_layout.xml
+END
+channel_order_one.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6771/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/channel_order_one.xml
+END
+preview_fft.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6991/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/preview_fft.xml
+END
+calibration_spiner_dropdown_layout.xml
+K 25
+svn:wc:ra_dav:version-url
+V 313
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7151/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/calibration_spiner_dropdown_layout.xml
+END
+popwindow_save_template.xml
+K 25
+svn:wc:ra_dav:version-url
+V 302
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7584/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/popwindow_save_template.xml
+END
+drop_down_item.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5447/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/drop_down_item.xml
+END
+cvu_item_child_background.xml
+K 25
+svn:wc:ra_dav:version-url
+V 304
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6695/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_child_background.xml
+END
+display.xml
+K 25
+svn:wc:ra_dav:version-url
+V 286
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7557/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/display.xml
+END
+float_window_table.xml
+K 25
+svn:wc:ra_dav:version-url
+V 297
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5151/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/float_window_table.xml
+END
+calibration_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8143/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/calibration_activity.xml
+END
+custom_tab.xml
+K 25
+svn:wc:ra_dav:version-url
+V 289
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7531/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/custom_tab.xml
+END
+dialog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 285
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6120/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/dialog.xml
+END
+cvu_item_projectlist.xml
+K 25
+svn:wc:ra_dav:version-url
+V 299
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7407/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_projectlist.xml
+END
+floating_window.xml
+K 25
+svn:wc:ra_dav:version-url
+V 294
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/5843/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/floating_window.xml
+END
+left_popwindow.xml
+K 25
+svn:wc:ra_dav:version-url
+V 293
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7501/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/left_popwindow.xml
+END
+file_storage_settings.xml
+K 25
+svn:wc:ra_dav:version-url
+V 300
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7531/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/file_storage_settings.xml
+END
+welcome_activity.xml
+K 25
+svn:wc:ra_dav:version-url
+V 295
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8083/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/welcome_activity.xml
+END
+cvu_activity_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7788/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_activity_main.xml
+END
+order.xml
+K 25
+svn:wc:ra_dav:version-url
+V 284
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7963/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/order.xml
+END
+start_bt.xml
+K 25
+svn:wc:ra_dav:version-url
+V 287
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/8083/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/start_bt.xml
+END
+logarithmic_setting.xml
+K 25
+svn:wc:ra_dav:version-url
+V 298
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/7591/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/logarithmic_setting.xml
+END
+dialog_main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 290
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/4704/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/dialog_main.xml
+END
+can.xml
+K 25
+svn:wc:ra_dav:version-url
+V 282
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6120/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/can.xml
+END
+cvu_item_navi_end.xml
+K 25
+svn:wc:ra_dav:version-url
+V 296
+/svn/%E7%A0%94%E5%8F%91%E9%83%A8/!svn/ver/6914/%E9%A1%B9%E7%9B%AE/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E9%A1%B9%E7%9B%AE/%E9%A1%B9%E7%9B%AE%E6%BA%90%E7%A0%81/trunk/%E7%A7%BB%E5%8A%A8%E5%AE%9E%E9%AA%8C%E7%BB%88%E7%AB%AF%E4%BC%98%E5%8C%96%E7%89%88/res/layout/cvu_item_navi_end.xml
+END

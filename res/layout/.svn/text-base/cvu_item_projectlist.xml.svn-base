@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- projects列表 item -->
+
+    <LinearLayout
+        android:id="@+id/item_project_front"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/cvu_selector_item_list"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/item_project_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cvu_folder" />
+
+        <TextView
+            android:id="@+id/item_project_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="文件夹"
+            android:textColor="@color/cvu_text_color" />
+
+        <ImageView
+            android:id="@+id/item_project_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cvu_checked_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

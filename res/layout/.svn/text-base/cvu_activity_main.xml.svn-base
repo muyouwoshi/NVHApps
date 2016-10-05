@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333" >
+
+    <LinearLayout
+        android:id="@+id/cvu_listview_bkg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="1px"
+        android:background="?attr/cvu_listview_bkg"
+        android:orientation="vertical" >
+
+        <!-- Activtiy的布局 -->
+
+
+        <!-- 导航条 -->
+
+        <HorizontalScrollView
+            android:id="@+id/navigationScrollView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <LinearLayout
+                android:id="@+id/navigation"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cvu_itemline" />
+
+        <!-- 列表主展区 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+
+            <!-- Data和Template -->
+
+            <ExpandableListView
+                android:id="@+id/root_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:groupIndicator="@null" />
+
+            <!-- Projects -->
+
+
+            <!-- <com.fortysevendeg.android.swipelistview.SwipeListView -->
+
+            <com.cuiweiyou.glideview.view.CVU_GlideListView
+                android:id="@+id/project_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!-- <com.cuiweiyou.glideview.view.QB_ListView -->
+            <!-- android:id="@+id/project_list" -->
+            <!-- android:layout_width="match_parent" -->
+            <!-- android:layout_height="match_parent" -->
+            <!-- android:cacheColorHint="@android:color/transparent" -->
+            <!-- android:listSelector="@android:color/transparent" -->
+            <!-- android:divider="@color/itemline" -->
+            <!-- android:dividerHeight="1px" /> -->
+
+
+            <!-- measurements -->
+
+            <ExpandableListView
+                android:id="@+id/measurement_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:groupIndicator="@null"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/cvu_itemline" />
+
+        <!-- 工具条 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp" >
+
+            <!-- 加载上次load过的project -->
+
+            <LinearLayout
+                android:id="@+id/ctrlbar_step1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/cvu_selector_button"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <ImageView
+                    android:id="@+id/cvu_enter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="?attr/cvu_enter" />
+            </LinearLayout>
+
+            <!-- 创建新project和编辑project -->
+
+            <LinearLayout
+                android:id="@+id/ctrlbar_step2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ctrlbar_step2_add"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/cvu_selector_button"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/cvu_add"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="?attr/cvu_add" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/cvu_itemline" />
+
+                <LinearLayout
+                    android:id="@+id/ctrlbar_step2_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/cvu_selector_button"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/cvu_edit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="?attr/cvu_edit" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- measurement编辑：加载，编辑 -->
+
+            <LinearLayout
+                android:id="@+id/ctrlbar_step3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ctrlbar_step3_load"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/cvu_selector_button"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/cvu_load_imag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="?attr/cvu_load" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/cvu_itemline" />
+
+                <LinearLayout
+                    android:id="@+id/ctrlbar_step3_edit"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/cvu_selector_button"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/cvu_edit_imag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="?attr/cvu_edit" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 编辑：删，取消，全选 -->
+
+            <LinearLayout
+                android:id="@+id/ctrlbar_step4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/ctrlbar_step4_delete"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/cvu_selector_button"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/cvu_delete"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="?attr/cvu_delete" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/cvu_itemline" />
+
+                <LinearLayout
+                    android:id="@+id/ctrlbar_step4_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/cvu_selector_button"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/cvu_cancel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="?attr/cvu_cancel" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1px"
+                    android:layout_height="match_parent"
+                    android:background="@color/cvu_itemline" />
+
+                <LinearLayout
+                    android:id="@+id/ctrlbar_step4_select"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="?attr/cvu_selector_button"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/ctrlbar_step4_select_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="?attr/cvu_all_normal" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/loadlogs_hat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33cccccc"
+        android:layout_centerInParent="true"
+        android:focusable="true"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" />
+        
+    <ProgressBar
+        android:id="@+id/loadlogs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>

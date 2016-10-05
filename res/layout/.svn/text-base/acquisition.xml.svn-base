@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Acquisition_layout"
+    android:background="?attr/oct" >
+
+    <TextView
+        android:id="@+id/Acquisition_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/all_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/AcquisitionSetting"
+        android:textColor="?attr/all_title_text" />
+    
+    <ImageButton
+        android:id="@+id/Back_Acqui"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/back_button"  />
+
+    <TextView
+        android:id="@+id/sampling_rate_n"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Acquisition_title"
+        android:textColor="?attr/all_title_text"
+        android:text="@string/sampling_rate_n" />
+    
+    <Spinner
+       	android:id="@+id/sampling_rate_n_spinner"
+       	android:layout_width="100dp"
+       	android:layout_height="wrap_content"
+       	android:layout_below="@+id/Acquisition_title"
+       	android:layout_toLeftOf="@+id/sampling_rate_n_Hz"
+        android:spinnerMode="dropdown" 
+        android:entries="@array/AcquiFreq_spinner"
+       	android:gravity="center"
+       	android:textColor="#465468"
+       	android:textSize="12sp" /> 
+  <TextView
+        android:id="@+id/sampling_rate_n_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Acquisition_title"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="?attr/all_title_text"/>  
+    <TextView
+        android:id="@+id/sampling_rate_n_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/sampling_rate_n"/>
+ 	<TextView
+        android:id="@+id/sampling_rate_v"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/sampling_rate_n_Line"
+        android:textColor="?attr/all_title_text"
+        android:text="@string/sampling_rate_v" />
+    <Spinner
+        android:id="@+id/sampling_rate_v_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/sampling_rate_v_Hz"
+        android:layout_below="@+id/sampling_rate_n_Line"
+        android:gravity="center"
+       	android:textColor="#465468"
+       	android:textSize="12sp"
+       	android:entries="@array/AcquiFreq_spinner"
+        android:spinnerMode="dropdown" />
+   <!--  @array/sampling_rate_v -->
+    <TextView
+        android:id="@+id/sampling_rate_v_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/sampling_rate_n_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="?attr/all_title_text"/>  
+    <TextView
+        android:id="@+id/sampling_rate_v_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/sampling_rate_v"/>
+   <!--  <TextView
+        android:id="@+id/Freq_Reslution"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Acqui_Line"
+        android:textColor="#FFFEFF"
+        android:text="@string/FreqResolution" />
+    <Spinner
+        android:id="@+id/FreqRes_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/FreqRes_Hz"
+        android:layout_below="@+id/Acqui_Line"
+        android:gravity="center"
+       	android:textColor="#465468"
+       	android:textSize="12sp"
+        android:spinnerMode="dropdown" />
+    <TextView
+        android:id="@+id/FreqRes_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Acqui_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="#FFFEFF"/>  
+    <TextView
+        android:id="@+id/FreqRes_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Freq_Reslution"/> -->
+
+</RelativeLayout>

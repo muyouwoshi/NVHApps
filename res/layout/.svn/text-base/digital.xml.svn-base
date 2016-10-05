@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:id="@+id/digital_layout"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1" >
+
+        <CheckBox
+            android:id="@+id/digital_chan1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chan1" />
+
+        <TextView
+            android:id="@+id/ch1_text_Threshold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_below="@+id/digital_chan1"
+            android:layout_alignBottom="@+id/ch1_edit_Threshold"
+            android:text="@string/Threshold" />
+        
+
+        <EditText
+            android:id="@+id/ch1_edit_Threshold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:layout_below="@+id/digital_chan1"
+            android:singleLine="true"
+            android:layout_toRightOf="@+id/ch1_text_Threshold" />
+        
+		<TextView
+            android:id="@+id/ch1_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_below="@+id/digital_chan1"
+            android:layout_alignBottom="@+id/ch1_edit_Threshold"
+            android:layout_toRightOf="@+id/ch1_edit_Threshold"
+            android:text="V" />
+		
+        <TextView
+            android:id="@+id/ch1_text_Pluse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:layout_below="@+id/ch1_text_Threshold"
+            android:layout_alignBottom="@+id/ch1_edit_Pluse"
+            android:text="@string/text_Pulse" />
+
+        <EditText
+            android:id="@+id/ch1_edit_Pluse"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_below="@+id/ch1_text_Threshold"
+            android:layout_toRightOf="@+id/ch1_text_Pluse" />
+        
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1" >
+
+        <CheckBox
+            android:id="@+id/digital_chan2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chan2" />
+
+        <TextView
+            android:id="@+id/ch2_text_Threshold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/digital_chan2"
+            android:gravity="bottom"
+            android:layout_alignBottom="@+id/ch2_edit_Threshold"
+            android:text="@string/Threshold" />
+
+        <EditText
+            android:id="@+id/ch2_edit_Threshold"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_below="@+id/digital_chan2"
+            android:layout_toRightOf="@+id/ch2_text_Threshold"/>
+
+        <TextView
+            android:id="@+id/ch2_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/digital_chan2"
+            android:gravity="bottom"
+            android:layout_alignBottom="@+id/ch2_edit_Threshold"
+            android:layout_toRightOf="@+id/ch2_edit_Threshold"
+            android:text="V" />
+        
+        <TextView
+            android:id="@+id/ch2_text_Pluse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ch2_text_Threshold"
+            android:gravity="bottom"
+            android:layout_alignBottom="@+id/ch2_edit_Pluse"
+            android:text="@string/text_Pulse" />
+
+        <EditText
+            android:id="@+id/ch2_edit_Pluse"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:singleLine="true"
+            android:layout_below="@+id/ch2_text_Threshold"
+            android:layout_toRightOf="@+id/ch2_text_Pluse"/>
+        
+    </RelativeLayout>
+
+</LinearLayout>

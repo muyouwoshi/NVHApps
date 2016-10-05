@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    		 android:id="@+id/languageLayout"
+        	 android:layout_width="fill_parent"
+        	 android:layout_height="fill_parent"
+        	  android:gravity="center">
+        <TableRow
+            android:id="@+id/tableRow"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >       
+       <LinearLayout
+            android:id="@+id/Layout_skin1"
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:clickable="true"
+        	android:orientation="vertical"
+        	android:background="@drawable/skin_selector">
+
+    	<ImageButton
+        	android:id="@+id/skin1_bt"
+        	android:layout_weight="0.8"
+        	android:layout_height="0dp"
+        	android:layout_width="40dp"
+        	android:layout_marginTop="15dp"
+        	android:layout_gravity="center_horizontal"
+        	android:clickable="false"
+        	android:background="@drawable/skin1_corners_bg" />
+    	 <TextView
+    	     android:id="@+id/skin1_text"
+         	android:layout_width="wrap_content"
+         	android:layout_height="0dp"
+         	android:layout_weight="0.1"
+         	android:layout_marginTop="5dp"
+         	android:text="@string/skin1_tx"
+         	android:layout_gravity="center_horizontal"/>
+    	</LinearLayout>
+    	<LinearLayout
+    	    android:id="@+id/Layout_skin2"
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:clickable="true"
+        	android:orientation="vertical"
+        	android:background="@drawable/skin_selector">
+    	 <ImageButton
+        	android:id="@+id/skin2_bt"
+        	android:layout_weight="0.8"
+        	android:layout_height="0dp"
+        	android:layout_width="40dp"
+        	android:layout_marginTop="15dp"
+        	android:layout_gravity="center_horizontal"
+        	android:clickable="false"
+        	android:background="@drawable/skin2_corners_bg" />
+    	 <TextView
+    	    android:id="@+id/skin2_text"
+         	android:layout_width="wrap_content"
+         	android:layout_height="0dp"
+         	android:layout_weight="0.1"
+         	android:layout_marginTop="5dp"
+         	android:text="@string/skin2_tx"
+         	android:layout_gravity="center_horizontal"/>
+    	</LinearLayout>
+    	<LinearLayout
+            android:id="@+id/Layout_skin3"
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+       	    android:clickable="true"
+        	android:orientation="vertical"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </TableRow>
+</TableLayout>

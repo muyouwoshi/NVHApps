@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--============================OCT标题 ==========================-->
+    <TextView
+        android:id="@+id/OCT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/OCT" />
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal" 
+        android:layout_below="@+id/OCT">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.9"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/Band_Type"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/BandType" />
+    
+    <TextView
+        android:id="@+id/OCTBandType_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/FreqWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:paddingLeft="5dp"
+        android:gravity="center_vertical"
+        android:text="@string/FreqWeight" />
+    
+    <TextView
+        android:id="@+id/OCTFreqWeight_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="horizontal" >
+     <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/X_Axis" />
+    <TextView
+        android:id="@+id/OCTXAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:text="@string/Y_Axis" />
+ 	
+   <TextView
+        android:id="@+id/OCTYAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"/>
+   </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#465468"
+        android:layout_below="@+id/Layout1"/>
+</RelativeLayout>

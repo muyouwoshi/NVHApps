@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:id="@+id/can_layout"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/can_text_mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/can_edit_mode"
+        android:gravity="bottom"
+        android:text="@string/can_text_mode" />
+
+    <EditText
+        android:id="@+id/can_edit_mode"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_alignRight="@+id/can_edit_baud" />
+
+    <TextView
+        android:id="@+id/can_text_baud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/can_text_mode"
+        android:layout_alignBottom="@+id/can_edit_baud"
+        android:gravity="bottom"
+        android:text="@string/Baud_Rate" />
+
+    <EditText
+        android:id="@+id/can_edit_baud"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:singleLine="true"
+        android:layout_toRightOf="@+id/can_text_baud"
+        android:layout_below="@+id/can_text_mode" />
+
+    <TextView
+        android:id="@+id/can_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/can_text_mode"
+        android:layout_toRightOf="@+id/can_edit_baud"
+        android:layout_alignBottom="@+id/can_edit_baud"
+        android:gravity="bottom"
+        android:text="V" />
+    
+</RelativeLayout>

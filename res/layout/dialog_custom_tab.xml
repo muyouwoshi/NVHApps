@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout 
+        android:id="@+id/TabUpLayout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+	    android:background="?attr/title_windw_top"
+	    android:paddingLeft="10dp"
+	    android:orientation="horizontal">
+	    
+        <LinearLayout
+	        android:id="@+id/Tab"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:orientation="horizontal" >
+	    </LinearLayout>
+	    <ImageButton
+	        android:id="@+id/dialog_close"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginRight="15dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:background="?attr/bt_dialog_close" />
+    </RelativeLayout>
+
+    <common.MyViewPager
+        android:id="@+id/ViewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/TabUpLayout" />
+
+</RelativeLayout>

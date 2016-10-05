@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/FFT_layout"
+    android:background="?attr/fft" >
+<!--============================FFT标题 ==========================-->
+    <TextView
+        android:id="@+id/FFT_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/all_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/FFT" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <ImageButton
+        android:id="@+id/Back_Fft"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:contentDescription="@string/app_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/back_button" />
+  <!--============================开关按钮 ==========================-->   
+    <RelativeLayout
+        android:id="@+id/SwitchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@+id/FFT_title" >
+    <Switch
+        android:id="@+id/FFTSwitchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textOff="@string/SwitchButtonOff"  
+        android:textOn="@string/SwitchButtonOn"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/Switch_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/SwitchLayout"/>
+
+<!--==========================Freq.Range==========================-->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+		android:layout_below="@+id/Switch_Line" >  
+	<RelativeLayout
+	    android:id="@+id/FFT_Layout"
+	    android:background="?attr/fft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"> 
+    <TextView
+        android:id="@+id/FFT_Freq_Range"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/FreqRange" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <Spinner
+        android:id="@+id/FFTFreqRange_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/FreqRange_KHz"
+        android:entries="@array/FFT_Freq_Range"
+        android:textColor="?attr/all_title_text"/>
+     
+     <TextView
+        android:id="@+id/FreqRange_KHz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:text="@string/KHz"
+        android:textColor="?attr/all_title_text"/>
+     
+    <TextView
+        android:id="@+id/FreqRange_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/FFT_Freq_Range"/>
+ <!--==========================Overlap ==========================-->   
+     <TextView
+        android:id="@+id/Overlap"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/FreqRange_Line"
+        android:text="@string/Overlap" 
+        android:textColor="?attr/all_title_text"/>  
+        
+    <EditText
+        android:id="@+id/FFTOverlap_edit"
+        android:layout_width="100dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:digits="9876543210."
+        android:background="@drawable/input"
+        android:layout_toLeftOf="@+id/FreqRange_KHz"
+        android:inputType="numberDecimal"
+        android:layout_below="@+id/FreqRange_Line"/>
+     
+     <TextView
+        android:id="@+id/Overlap_percent"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/FreqRange_Line"
+        android:textSize="12sp"
+        android:text="@string/percent"
+        android:textColor="?attr/all_title_text"/>   
+         
+    <TextView
+        android:id="@+id/Overlap_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Overlap"/>
+    
+ <!--==========================Freq.Reslution==========================-->     
+    <TextView
+        android:id="@+id/Freq_Res"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Overlap_Line"
+        android:text="@string/FreqResolution" 
+        android:textColor="?attr/all_title_text"/>
+    
+    <Spinner
+        android:id="@+id/FFTFreqRes_spinner"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Overlap_Line"
+        android:textColor="?attr/all_title_text"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"/>
+     
+     <TextView
+        android:id="@+id/FreqRes_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Overlap_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="?attr/all_title_text"/>  
+         
+    <TextView
+        android:id="@+id/FreqRes_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Freq_Res"/>
+    
+ <!--==========================Freq.Weight==========================-->     
+     <TextView
+        android:id="@+id/Freq_Weight"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/FreqRes_Line"
+        android:text="@string/FreqWeight" 
+        android:textColor="?attr/all_title_text"/>
+     
+    <Spinner
+        android:id="@+id/FFTFreqWeight_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="19dp"
+        android:layout_below="@+id/FreqRes_Line"
+        android:entries="@array/Freq_Weight"
+        android:textColor="?attr/all_title_text"/>
+     
+     <!-- <TextView
+        android:id="@+id/FreqWeight_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/FreqRes_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="#FFFEFF"/>  -->
+          
+    <TextView
+        android:id="@+id/FreqWei_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Freq_Weight"/>
+    
+ <!--==========================Averaging==========================-->        
+     <TextView
+        android:id="@+id/Averaging"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/FreqWei_Line"
+        android:text="@string/Averaging" 
+        android:textColor="?attr/all_title_text"/>
+     
+   	<EditText
+       	android:id="@+id/FFTAveraging_edit"
+       	android:layout_width="100dp"
+       	android:layout_height="25dp"
+       	android:layout_marginTop="5dp"
+       	android:background="@drawable/input"
+       	android:layout_below="@+id/FreqWei_Line"
+       	android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:digits="9876543210."
+        android:inputType="numberDecimal"
+        android:singleLine="true"/> 
+       	 <!-- android:textColor="?attr/all_title_text" 
+       	 	  android:gravity="center"
+       		  android:textSize="12sp"-->
+    <TextView
+        android:id="@+id/Avera_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Averaging"/>
+    
+ <!--==========================Window==========================-->      
+    <TextView
+        android:id="@+id/Window"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Avera_Line"
+        android:text="@string/Window" 
+        android:textColor="?attr/all_title_text"/>
+    
+   <Spinner
+        android:id="@+id/FFTWindow_spinner"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Avera_Line"
+        android:entries="@array/Window"
+         android:textColor="?attr/all_title_text"/>
+     
+     <!-- <TextView
+        android:id="@+id/Window_Hz"
+        android:layout_width="17dp"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="2dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Avera_Line"
+        android:textSize="12sp"
+        android:text="@string/Hz"
+        android:textColor="#FFFEFF"/> --> 
+    <TextView
+        android:id="@+id/Window_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Window"/>
+    
+ <!--==========================X_Axis==========================-->  
+    <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/Window_Line"
+        android:text="@string/X_Axis"
+        android:textColor="?attr/all_title_text" />
+    
+   <Spinner
+        android:id="@+id/FFTXAxis_spinner"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Window_Line"
+        android:entries="@array/Hz"
+         android:textColor="?attr/all_title_text"/>
+    <TextView
+        android:id="@+id/X_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/X_Axis"/>
+<!--==========================Y_Axis==========================--> 
+ 	<TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/X_Line"
+        android:text="@string/Y_Axis"
+        android:textColor="?attr/all_title_text"/>
+ 	
+    <Spinner
+        android:id="@+id/FFTYAxis_spinner"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/X_Line" 
+        android:entries="@array/Y_Axis"
+         android:textColor="?attr/all_title_text"/>
+    <TextView
+        android:id="@+id/Y_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#3C404C"
+        android:layout_below="@+id/Y_Axis"/>
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

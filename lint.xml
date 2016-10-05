@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HandlerLeak">
+        <ignore path="src/bottom/drawer/AddChannelViewPager.java" />
+        <ignore path="src/com/example/mobileacquisition/WelcomeActivity.java" />
+        <ignore path="src/draw/map/SPL.java" />
+        <ignore path="src/mode/drive/DriveModeActivity.java" />
+    </issue>
+    <issue id="SdCardPath">
+        <ignore path="src/com/example/mobileacquisition/MainActivity.java" />
+    </issue>
+    <issue id="ShowToast">
+        <ignore path="src\common\DataCollection.java" />
+    </issue>
+    <issue id="SimpleDateFormat" severity="ignore" />
+    <issue id="ValidFragment">
+        <ignore path="src/mode/autorange/RangeLayout.java" />
+    </issue>
+</lint>

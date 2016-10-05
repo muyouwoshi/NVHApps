@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_alignParentBottom="true"
+    android:background="?attr/bottomView" 
+    android:id="@+id/bottomView"
+    android:layout_weight="1"
+    android:layout_width="match_parent" 
+    android:orientation="horizontal" 
+    android:layout_height="match_parent">
+ <!--  android:background="?attr/algorithm_title" -->
+    <bottom.drawer.VerticalViewPager
+      	android:id="@+id/chan_viewpager"
+     	android:layout_width="0dp"
+      	android:layout_height="match_parent" 
+      	android:layout_weight="1.1"/>
+		 
+    <common.MyViewPager
+   		android:id="@+id/bt_viewpager"
+   		android:layout_weight="1"
+    	android:layout_width="0dp"
+    	android:layout_height="match_parent" >
+    </common.MyViewPager>
+  
+</LinearLayout>

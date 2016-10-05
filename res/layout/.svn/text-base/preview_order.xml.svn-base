@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--============================SPL标题 ==========================-->
+    <!-- <TextView
+        android:id="@+id/Order"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/Order" /> -->
+    <LinearLayout
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/pre_one_order"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#33FF33"/>
+
+    <TextView
+        android:id="@+id/pre_two_order"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="#33FF33"/>
+
+    <TextView
+        android:id="@+id/pre_three_order"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="#33FF33" />
+
+    <TextView
+        android:id="@+id/pre_four_order"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="#33FF33"/>
+
+    <TextView
+        android:id="@+id/pre_five_order"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:textColor="#33FF33" />
+    </LinearLayout>
+	<!-- <TextView
+        android:id="@+id/Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#465468"
+        android:layout_below="@+id/Layout"/> -->
+</RelativeLayout>

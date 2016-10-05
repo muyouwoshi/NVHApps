@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+     <LinearLayout android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:orientation="vertical"
+	    android:layout_gravity="center"
+	    android:layout_weight="7">
+         
+    <ScrollView 
+        android:layout_width="match_parent"
+	    android:layout_height="match_parent">
+    
+
+		<TableLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_marginLeft="50dp"
+		    android:layout_marginRight="50dp">
+		    <TableRow android:id="@+id/tableRow1"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content">
+        	<LinearLayout 
+        	    android:layout_width="0dp"
+			    android:layout_height="match_parent"
+			    android:orientation="horizontal"
+			    android:layout_weight="1">
+		        <TextView
+		            android:id="@+id/pa_text"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="Pa" />
+		
+		        <Spinner
+		            android:id="@+id/pa_spinner"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_gravity="center"
+		            android:entries="@array/pa_decimal" />
+		        
+		        <TextView
+		            android:id="@+id/decimal_set1"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="@string/decimal_set" />
+		        </LinearLayout>
+		        <LinearLayout 
+	        	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal"
+				    android:layout_weight="1">
+		       <TextView
+		            android:id="@+id/db_text"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1.1"
+		            android:text="dB,dBA,dBC" />
+		
+		        <Spinner
+		            android:id="@+id/db_spinner"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_gravity="center"
+		            android:entries="@array/db_decimal" />
+		        <TextView
+		            android:id="@+id/decimal_set2"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="@string/decimal_set" />
+		        </LinearLayout>
+		    </TableRow>
+		    
+		    <TableRow android:id="@+id/tableRow2"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp" >
+		        <LinearLayout 
+	        	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal"
+				    android:layout_weight="1">
+		         <TextView
+		            android:id="@+id/rpm_text"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="RPM" />
+		
+		        <Spinner
+		            android:id="@+id/rpm_spinner"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_gravity="center"
+		            android:entries="@array/rpm_decimal" />
+		        <TextView
+		            android:id="@+id/decimal_set3"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="@string/decimal_set" />
+		            
+		        </LinearLayout>
+		        <LinearLayout 
+	        	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal"
+				    android:layout_weight="1">
+		         <TextView
+		            android:id="@+id/hz_text"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="Hz" />
+		
+		        <Spinner
+		            android:id="@+id/hz_spinner"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_gravity="center"
+		            android:entries="@array/hz_decimal" />
+		        
+		        <TextView
+		            android:id="@+id/decimal_set4"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="@string/decimal_set" />
+		            
+		        </LinearLayout>
+
+		    </TableRow>
+		    
+		    <TableRow android:id="@+id/tableRow3"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp" >
+		        <LinearLayout 
+	        	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal"
+				    android:layout_weight="1">
+		         <TextView
+		            android:id="@+id/s_text"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="s" />
+		
+		        <Spinner
+		            android:id="@+id/s_spinner"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_gravity="center"
+		            android:entries="@array/s_decimal" />
+		        <TextView
+		            android:id="@+id/decimal_set5"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="@string/decimal_set" />
+		        </LinearLayout>
+		        <LinearLayout 
+	        	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal"
+				    android:layout_weight="1">
+		        <TextView
+		            android:id="@+id/ms_text"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="ms" />
+		
+		        <Spinner
+		            android:id="@+id/ms_spinner"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_gravity="center"
+		            android:entries="@array/ms_decimal" />
+		        <TextView
+		            android:id="@+id/decimal_set6"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="@string/decimal_set" />
+		        </LinearLayout>
+		    </TableRow>
+		    
+		    <TableRow android:id="@+id/tableRow4"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="20dp">
+		         <LinearLayout 
+	        	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal"
+				    android:layout_weight="1">
+		        <TextView
+		            android:id="@+id/percent_text"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="%" />
+		
+		        <Spinner
+		            android:id="@+id/percent_spinner"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_weight="1"
+		            android:layout_gravity="center"
+		            android:entries="@array/db_decimal" />
+		        
+		        <TextView
+		            android:id="@+id/decimal_set7"
+		            android:layout_width="0dp"
+		            android:layout_height="wrap_content"
+		            android:layout_gravity="center"
+		            android:layout_weight="1"
+		            android:text="@string/decimal_set" />
+		        </LinearLayout>
+		         <LinearLayout 
+	        	    android:layout_width="0dp"
+				    android:layout_height="match_parent"
+				    android:orientation="horizontal"
+				    android:layout_weight="1">
+		        </LinearLayout>
+		    </TableRow>
+
+		    </TableLayout>
+	    </ScrollView>
+	    </LinearLayout>
+	    <LinearLayout
+	        android:id="@+id/tableRow8"
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_marginLeft="50dp"
+	        android:layout_marginRight="100dp"
+	        android:layout_weight="1.5"
+	        android:orientation="horizontal" >
+	
+	        <TextView
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center"
+	            android:layout_weight="1" />
+	
+	        <Button
+	            android:id="@+id/Save"
+	            android:layout_width="0dp"
+	            android:layout_height="40dp"
+	            android:background="?attr/copy"
+	            android:layout_gravity="center"
+	            android:layout_marginRight="10dp"
+	            android:layout_weight="1.4"
+	            android:text="@string/Save"
+	            android:textColor="#FFFEFF" />
+	
+	        <Button
+	            android:id="@+id/Restore_default"
+	            android:layout_width="0dp"
+	            android:layout_height="40dp"
+	            android:layout_gravity="center"
+	            android:layout_marginLeft="10dp"
+	            android:layout_weight="1.4"
+	            android:background="?attr/paste"
+	            android:text="@string/Recover"
+	            android:textColor="#FFFEFF" />
+	    </LinearLayout>
+	    
+	
+</LinearLayout>

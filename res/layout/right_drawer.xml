@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rightLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B3F4C"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+   <LinearLayout
+        android:id="@+id/catalogButtonArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="#444A5B"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <Button
+            android:id="@+id/exit_catalogButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/right_exit_selector"
+            android:text="Exit"
+             android:textSize="15sp"
+              android:gravity="center"
+               android:layout_marginBottom="-0.5dp"
+            android:textColor="#ffffff"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/firstLevel_catalogButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+            android:layout_marginLeft="-30dp"
+              android:gravity="center"
+           android:background="@drawable/right_secondproject_selector" 
+            android:text="Project"
+            android:textSize="15sp"
+             android:textColor="#ffffff"
+            android:visibility="visible" />
+         <!--  -->
+        <Button
+            android:id="@+id/secondLevel_catalogButton"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.2"
+             android:textColor="#ffffff"
+               android:gravity="center"
+               android:layout_marginLeft="-35dp"
+              android:textSize="15sp"
+            android:background="@drawable/right_secondproject_selector"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+    <right.drawer.RightExplandableListView
+        android:id="@+id/right_expandableList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </right.drawer.RightExplandableListView>
+
+    <ListView
+        android:id="@+id/templateFile_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/funcitonButtonArea"
+        android:layout_below="@+id/right_expandableList"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="vertical"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/file_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/funcitonButtonArea"
+        android:layout_below="@+id/catalogButtonArea"
+        android:cacheColorHint="@android:color/transparent"
+        android:fadingEdge="vertical"
+        android:visibility="gone" />
+    <LinearLayout
+        android:id="@+id/funcitonButtonArea"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#444A5B"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/speedEnterArea"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="#444A5B"
+            android:orientation="horizontal"
+            android:visibility="visible" >
+
+            <ImageButton
+                android:id="@+id/speedenter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="0.3dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_linealayout1"
+                android:src="@drawable/add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/funcitonArea"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="#444A5B"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/add"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@drawable/btn_linealayout1"
+                android:src="@drawable/add" />
+            <View
+                 android:layout_width="0.5dp"
+                 android:layout_height="match_parent"
+                 android:background="#3b3f4c"/>
+                
+            <ImageButton
+                android:id="@+id/edit"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@drawable/btn_linealayout1"
+                android:src="@drawable/edit" />
+            <View
+                 android:layout_width="0.5dp"
+                 android:layout_height="match_parent"
+                 android:background="#3b3f4c"/>
+            <ImageButton
+                android:id="@+id/load"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:layout_weight="1"
+                android:background="@drawable/btn_linealayout1"
+                android:src="@drawable/edit" />
+            <View
+                 android:layout_width="0.5dp"
+                 android:layout_height="match_parent"
+                 android:background="#3b3f4c"/>
+            <ImageButton
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_linealayout1"
+                android:src="@drawable/delete"
+                android:visibility="gone" />
+            <View
+                 android:layout_width="0.5dp"
+                 android:layout_height="match_parent"
+                 android:background="#3b3f4c"/>
+            <ImageButton
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_linealayout1"
+                android:src="@drawable/cancel"
+                android:visibility="gone" />
+            <View
+                 android:layout_width="0.5dp"
+                 android:layout_height="match_parent"
+                 android:background="#3b3f4c"/>
+            <ImageButton
+                android:id="@+id/all"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/btn_linealayout1"
+                android:src="@drawable/all"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal">  
+       <ImageButton
+        	android:focusable="true" 
+        	android:id="@+id/cricleBtn"
+        	android:layout_weight="1"
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:background="#00000000"
+        	android:src="?attr/bt_xunhuan_selector"/> 
+       <ImageButton
+        	android:id="@+id/reStartBtn"
+        	android:layout_weight="1"
+        	android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_gravity="center"
+        	android:background="#00000000"
+        	android:src="?attr/bt_restart_selector" /> 
+       <ImageButton
+            android:id="@+id/replay_floatBtn"      
+            android:focusable="false"    
+            android:layout_weight="1" 
+            android:layout_width="0dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="?attr/bt_replay_float_selector" />        
+ </LinearLayout>

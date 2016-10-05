@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Pre_Trigger_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/trigger" >
+
+    <TextView
+        android:id="@+id/Pre_Trigger_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/all_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/left_childItems_22"
+        android:textColor="?attr/all_title_text"/>
+
+    <ImageButton
+        android:id="@+id/Back_PreTrig"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/back_button" 
+        android:contentDescription="@string/app_name" />
+
+   <RelativeLayout
+        android:id="@+id/Pre_Trigger_time_layout"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/Pre_Trigger_title">
+    <TextView
+        android:id="@+id/Pre_Trigger_time"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:textSize="14dp"
+        android:text="@string/Pre_Trigger_time"
+        android:textColor="?attr/all_title_text"/>
+
+    <EditText
+        android:id="@+id/Pre_Trigger_time_edit"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/Pre_Trigger_time_unit"
+        android:singleLine="true"
+        android:digits="0123456789."
+        android:background="@drawable/input" />
+    <TextView
+        android:id="@+id/Pre_Trigger_time_unit"
+        android:layout_width="30dp"
+        android:layout_height="30dp" 
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:text="s"
+        android:textColor="?attr/all_title_text"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/Duration_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/Pre_Trigger_time"
+        android:background="#3C404C" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,424 @@
+package draw.map;
+
+import java.text.DecimalFormat;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.graphics.Canvas;
+import android.util.Log;
+import bottom.drawer.AddChannelViewPager;
+
+import com.example.mobileacquisition.MainActivity;
+import common.DataCollection;
+import common.IAudioTrack;
+import common.MyViewPager;
+import common.ScaleView;
+
+public class Signal extends ScaleView {
+	// private Ruler ruler;
+	private float px = 100;
+	private float x = 102;
+	protected float maxValue;
+	private ArrayList<List> SignalBuffer;
+	private float py = 0;
+	private float y = 0;
+	// private Activity context;
+	private boolean startToFindZero = true;
+	// private int reduceData;
+	private int j;
+	private byte endlessData = -1;// δ��ʼ��ֵ״̬
+	private DecimalFormat df = new DecimalFormat();
+	private int count = 0;
+	private int lastIndex = -1;
+	private int channalCount;
+	private static boolean ifStartToGetData = false;
+	private static boolean ifEnterToDriverMode=false;
+	private static int bufferIntListIndex;
+	public Signal(Context context) {
+		super(context);
+		// this.viewPager = viewPager;
+	}
+
+	public Signal(Context context, MyViewPager viewPager) {
+		super(context, viewPager);
+		// this.viewPager = viewPager;
+		SignalBuffer = new ArrayList<List>();
+		
+		SharedPreferences preference = context.getSharedPreferences("hz_5D", 0);
+
+		if(xlabelState ==null)xlabelState = preference.getString("Signal_XAxis", "s");
+		if(ylabelState ==null)ylabelState = preference.getString("Signal_YAxis", "Pa");
+		refreshLabelState();
+		
+		df.setMinimumFractionDigits(2);
+		df.setMaximumFractionDigits(2);
+		channalCount = 8;
+		for (int i = 0; i < channalCount; i++) {
+			SignalBuffer.add(new ArrayList<Float>());
+		}
+	}
+
+	public void init() {
+		super.init();
+		xGrid = 160;
+		divider = 2;
+		offsetX = 1/acquiFreq;
+		xmultiple = offsetX/divider;
+		ymultiple = 0.01f;
+	}
+
+	@Override
+	protected void onDraw(Canvas canvas) {
+		// �Զ���ı�ǩֵ
+		getAutoRate((ArrayList<Float>) SignalBuffer.get(0), ybaseLine);
+		// ʹ�ø���Ļ�ͼ����
+		super.onDraw(canvas);
+		// �⼸����ʲôֵ��
+
+		canvas.save();
+		canvas.clipRect(left, 0, vieww, viewh - 50);
+		// ��ȡsignalbuffer
+		if (context.getClass().getSimpleName().equals("MainActivity")) {
+			// δ���ϻ��˵���ѡ��ͨ���Ļ����ửͼ
+			if (AddChannelViewPager.channelCount.size() == 0)
+				return;
+
+				if (DataCollection.isRecording || DataCollection.collectionState == 1) {
+					if (DataCollection.dataCollectionIntBufferList != null
+							&& DataCollection.dataCollectionIntBufferList.size() != 0) {
+						if (DataCollection.collectionState == 0) {
+							if (!ifStartToGetData||ifEnterToDriverMode) {
+								if (SignalBuffer.get(0).size() > 0) {
+									for (int i = 0; i <= lastIndex; i++) {
+										SignalBuffer.get(i).clear();
+									}
+									if(!ifEnterToDriverMode) changeX = 0;
+								}
+								ifStartToGetData = true;
+								ifEnterToDriverMode=false;
+							}
+							if (bufferIntListIndex < DataCollection.dataCollectionIntBufferList.size()) {
+								int[] testdata = ((ArrayList<int[]>) DataCollection.dataCollectionIntBufferList)
+										.get(bufferIntListIndex);
+								getSignalBuffer(testdata, canvas);
+								bufferIntListIndex += 1;
+							}
+						} else if (DataCollection.collectionState == 1 && ifStartToGetData == true) {  //  �ɼ�ֹͣ
+//							if (bufferIntListIndex < DataCollection.dataCollectionIntBufferList.size()) {
+//								int[] testdata = ((ArrayList<int[]>) DataCollection.dataCollectionIntBufferList)
+//										.get(bufferIntListIndex);
+//								getSignalBuffer(testdata, canvas);
+//								bufferIntListIndex += 1;
+//							}else{
+								DataCollection.collectionOverCalculateCount += 1;
+								bufferIntListIndex = 0;
+								ifStartToGetData = false;
+								
+//							}
+						}
+					}
+				} else {
+				try {
+					if (IAudioTrack.readState == 3) {//  �ط��ж�
+						IAudioTrack.audioOverCalculateCount += 1;
+						bufferIntListIndex = 0;
+						ifStartToGetData = false;
+					}else if (IAudioTrack.readState == 0) {
+						if (!ifStartToGetData) {
+							if (SignalBuffer.get(0).size() > 0) {
+								for (int i = 0; i <= lastIndex; i++) {
+									SignalBuffer.get(i).clear();
+								}
+								changeX = 0;
+							}
+							ifStartToGetData = true;
+						}
+						if (bufferIntListIndex < IAudioTrack.mAudioTrackIntBufferList.size()) {
+							int[] testdata = ((ArrayList<int[]>) IAudioTrack.mAudioTrackIntBufferList)
+									.get(bufferIntListIndex);
+							getSignalBuffer(testdata, canvas);
+							bufferIntListIndex += 1;
+						}
+					} else if (IAudioTrack.readState == 1 && ifStartToGetData == true) {
+						if (IAudioTrack.readState == 3) {
+							IAudioTrack.audioOverCalculateCount += 1;
+							bufferIntListIndex = 0;
+							ifStartToGetData = false;
+						}
+						if (IAudioTrack.readState == 1) {//  �ط�ֹͣ
+							if (bufferIntListIndex >= IAudioTrack.mAudioTrackIntBufferList.size()) {
+								IAudioTrack.audioOverCalculateCount += 1;
+								bufferIntListIndex = 0;
+								ifStartToGetData = false;
+							} else {
+								int[] testdata = ((ArrayList<int[]>) IAudioTrack.mAudioTrackIntBufferList)
+										.get(bufferIntListIndex);
+								getSignalBuffer(testdata, canvas);
+								bufferIntListIndex += 1;
+							}
+						}
+					}
+				} catch (Exception e) {
+					System.out.println(e);
+				}
+			}
+
+		} else if (context.getClass().getSimpleName()
+				.equals("DriveModeActivity")) {
+			// δ���ϻ��˵���ѡ��ͨ���Ļ����ửͼ
+			if (AddChannelViewPager.drive_channelCount.size() == 0)
+				return;
+			if (DataCollection.isRecording || DataCollection.collectionState == 1) {
+				if (DataCollection.dataCollectionIntBufferList != null
+						&& DataCollection.dataCollectionIntBufferList.size() != 0) {
+					if (DataCollection.collectionState == 0) {
+						if (!ifStartToGetData) {
+							if (SignalBuffer.get(0).size() > 0) {
+								for (int i = 0; i <= lastIndex; i++) {
+									SignalBuffer.get(i).clear();
+								}
+								changeX = 0;
+							}
+							ifStartToGetData = true;
+						}
+						if (bufferIntListIndex < DataCollection.dataCollectionIntBufferList.size()) {
+							int[] testdata = ((ArrayList<int[]>) DataCollection.dataCollectionIntBufferList)
+									.get(bufferIntListIndex);
+							getSignalBuffer(testdata, canvas);
+							bufferIntListIndex += 1;
+						}
+					} else if (DataCollection.collectionState == 1 && ifStartToGetData == true) {
+//						if (bufferIntListIndex < DataCollection.dataCollectionIntBufferList.size()) {
+//							int[] testdata = ((ArrayList<int[]>) DataCollection.dataCollectionIntBufferList)
+//									.get(bufferIntListIndex);
+//							getSignalBuffer(testdata, canvas);
+//							bufferIntListIndex += 1;
+//						}else{
+							DataCollection.collectionOverCalculateCount += 1;
+							bufferIntListIndex = 0;
+							ifStartToGetData = false;
+//						}
+					}
+				}
+			}
+		}
+		if (lastIndex < 0) {
+			return;
+		}
+		for (int i = 0; i < SignalBuffer.get(lastIndex).size() - 1; i++) {
+			int index = 0;
+			while (index < activityChannelArray.length) {
+				if (activityChannelArray[index] == 0) {
+					index++;
+					continue;
+				}
+				
+				List<Float> lineListBuffer = SignalBuffer.get(index);
+				
+				if(lineListBuffer.size() == 0)////////////////////////k///// - begin
+					return;
+
+				py = (ybaseLine - lineListBuffer.get(i)  * syrate/ymultiple); // - end IndexOutOfBoundsException: Invalid index 0, size is 0
+				px = xbaseLine + i * sxrate * divider;
+				y = (ybaseLine - lineListBuffer.get(i + 1)  * syrate/ymultiple);
+				x = px + sxrate * divider;
+				
+				if (paintList != null && paintList.size() > 0) {
+					if (index + 1 > paintList.size()) {
+						canvas.drawLine(px, py, x, y, paintList.get(0));
+					} else {
+						canvas.drawLine(px, py, x, y, paintList.get(index));
+					}
+				}
+				index++;
+			}
+		}
+		canvas.restore();
+	}
+
+	public void getDataResult(int channelNum) {
+		if (channelNum > SignalBuffer.size())
+			return;
+		if (SignalBuffer != null  && channelNum != -1&&  SignalBuffer.size() > 01) {
+			resultDatalist = (ArrayList) SignalBuffer.get(channelNum);
+		}
+	}
+
+	protected void getAutoRate(ArrayList<Float> list, float ybase) {
+		if (list.size() == 0)
+			return;
+		maxValue = list.get(0)/ymultiple;
+		int i = 0;
+		int length = list.size();
+		while (i < length - 1) {
+			float value = list.get(i)/ymultiple;
+			if (value < 0)
+				value = 0 - value;
+			if (value > maxValue)
+				maxValue = value;
+			i++;
+		}
+		if (isAuto) {
+			if ((ybase * 0.8 / maxValue ) >= 1 && (ybase * 0.8 / maxValue) <= 100) {
+				syrate = (float) (ybase * 0.8  / maxValue);
+			} else if ((ybase * 0.8 / maxValue) > 100) {
+				syrate = 100;
+			} else
+				syrate = 1;
+		}
+	}
+
+	private void getSignalBuffer(int[] Buffer, Canvas canvas) {
+		if (Buffer == null || Buffer.length <channalCount)
+			return;
+		switch (hardType) {
+		case 0:// Ӳ��ģʽ
+			int xsize = 0;
+			for (int i = 0; i < Buffer.length/channalCount; i ++) {
+				count = 0;
+				int data = 0;
+				int bufferData = 0;
+				List<Integer> lineBufferList = null;
+				while (count < checkedChannelIndexArray.length) {
+					if (checkedChannelIndexArray[count] == 0) {
+						count++;
+						continue;
+					} else {
+						lastIndex = count;
+					}
+					lineBufferList = SignalBuffer.get(count);
+					int bufferindex=i*channalCount+count;
+					bufferData =Buffer[bufferindex];
+					lineBufferList.add(bufferData);
+					if (lineBufferList.size() > canvas.getWidth() / 2) {
+						lineBufferList.remove(0);
+
+						changeX = (float) (changeX + offsetX);
+					}
+					++count;
+				}
+				xsize++;
+			}
+			break;
+		case 1:// ����ģʽ                                                                                                                                  
+			lastIndex = 0;
+			List<Float> lineList = SignalBuffer.get(0);
+			if(ylabelState.equals("Pa")){
+				for (int i = 0; i < Buffer.length; i ++) {
+					float data = ((Buffer[i] >> 8) / 200.0f);
+					data=(float) (p0*(Math.pow(10, (data/ 20))));
+					lineList.add(data);//��ԭ��ԭʼ��ݣ�Ȼ�����200����ѹ��
+				}
+			}
+			else{
+				for (int i = 0; i < Buffer.length; i ++) {
+					lineList.add((Buffer[i] >> 8) / 200.0f);//��ԭ��ԭʼ��ݣ�Ȼ�����200����ѹ��
+				}
+			}
+			
+//			for (int i = 0; i < Buffer.length; i += 8) {
+//				int data = ((0x0000 | Buffer[i + 1]) << 8 | Buffer[i]);
+//				 switch (ylabelState) {
+//				 case "Pa":
+//				 // double data_Pa=(2 * p0)*(Math.pow(10, (data/ 20)));
+//				 // String resultStr=String.valueOf(data_Pa);
+//				 // String resultStr_Int=resultStr.substring(0,
+//				 resultStr.indexOf("."));
+//				 // int result=Integer.valueOf(resultStr_Int);
+//				 // lineList.add(result);
+//				 lineList.add(data);
+//				 break;
+//				 default:
+//				lineList.add(data);
+//				 break;
+//				 }
+//			}
+			while (SignalBuffer.get(0).size() > canvas.getWidth() / 2) {
+				SignalBuffer.get(0).remove(0);
+				changeX = (float) (changeX + offsetX);
+			}
+			break;
+		}
+
+	}
+
+	// private String getUnit() {
+	// return context.getSharedPreferences("hz_5D", 0).getString(
+	// "Signal_XAxis", "s");
+	// }
+	// �Ա�ʹ��
+	private float byte2float(byte[] b, int index) {
+		int l;
+		l = b[index + 0];
+		l &= 0xff;
+		l |= ((long) b[index + 1] << 8);
+		l &= 0xffff;
+		l |= ((long) b[index + 2] << 16);
+		l &= 0xffffff;
+		l |= ((long) b[index + 3] << 24);
+		return Float.intBitsToFloat(l);
+	}
+	protected void refreshXmultiple() {
+		// TODO Auto-generated method stub
+		if(xlabelState.equals("s")){
+			offsetX = 1/acquiFreq;
+			xmultiple = offsetX/divider;
+		}
+		else if(xlabelState.equals("ms")){
+			offsetX = 1/acquiFreq;
+			xmultiple = offsetX/divider*1000;
+		}
+	}
+
+	@Override
+	protected void yDataChange() {
+		// TODO Auto-generated method stub
+		if(YUNIT_SWITCH_MODE == 0) return;	
+		else if(YUNIT_SWITCH_MODE == 2){   	  // db �л���   pa
+			int listCount = SignalBuffer.size();
+			ArrayList<List> lists = new ArrayList<List>();
+			for(int i =0 ; i< listCount ;i++){
+				List<Float> list= new ArrayList<Float>();
+				
+				Iterator<Float> it = SignalBuffer.get(i).iterator();
+				while(it.hasNext()){
+					float data = it.next();
+					
+					data=(float) (p0*(Math.pow(10, (data/ 20))));
+					
+					list.add(data);
+				}
+				lists.add(list);
+			}
+			
+			SignalBuffer.clear();
+			SignalBuffer = lists;
+		}else {					// pa �л���     db
+
+			int listCount = SignalBuffer.size();
+			ArrayList<List> lists = new ArrayList<List>();
+			for(int i =0 ; i< listCount ;i++){
+				List<Float> list= new ArrayList<Float>();
+				
+				Iterator<Float> it = SignalBuffer.get(i).iterator();
+				while(it.hasNext()){
+					float data = it.next();
+									  
+					data=(float) (20*(Math.log10(data/p0))); 
+					
+					list.add(data);
+				}
+				lists.add(list);
+			}
+			
+			SignalBuffer.clear();
+			SignalBuffer = lists;
+		}
+		
+	}
+	
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--============================SPL标题 ==========================-->
+    <TextView
+        android:id="@+id/SPL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/SPL" />
+    <LinearLayout
+        android:id="@+id/Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SPL"
+        android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.4"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/Freq_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/FreqWeight" />
+    
+     <TextView
+         android:id="@+id/SPLFreqWeight_textview"
+         android:layout_width="wrap_content"
+         android:layout_height="35dp"
+         android:layout_marginLeft="10dp"
+         android:textColor="#33FF33"/>
+     </LinearLayout>
+      <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.2"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+     <TextView
+        android:id="@+id/Time_Weight"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="@string/TimeWeight" />
+    <TextView
+        android:id="@+id/SPLTimeWeight_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+     </LinearLayout>
+     <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/X_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="@string/X_Axis" />
+    
+    <TextView
+        android:id="@+id/SPLXAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/Y_Axis"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:text="@string/Y_Axis" />
+    <TextView
+        android:id="@+id/SPLYAxis_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#33FF33"
+        android:text="TextView"/>
+    </LinearLayout>
+    </LinearLayout>
+	<TextView
+        android:id="@+id/Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#465468"
+        android:layout_below="@+id/Layout"/>
+</RelativeLayout>

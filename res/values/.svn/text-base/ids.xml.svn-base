@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- abc下的模板长按 | the project under abc -->
+    <item name="abc_long_group" type="id"></item>
+    <item name="abc_long_child" type="id"></item>
+    
+    <!-- 项目/测量下的模板长按 | the project under measurement -->
+    <item name="tmp_long_group" type="id"></item>
+
+</resources>

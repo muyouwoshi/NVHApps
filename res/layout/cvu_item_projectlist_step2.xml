@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- measurements列表下的item（result和signal） -->
+    
+    <LinearLayout
+          android:id="@+id/item_projectlist_stemp2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cvu_expitemheight"
+        android:background="@drawable/cvu_selector_item_list"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="10dp" >
+
+        <ImageView
+            android:id="@+id/item_project_child_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cvu_folder" />
+
+        <TextView
+            android:id="@+id/item_project_child_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+        android:textColor="@color/cvu_text_color"
+            android:singleLine="true"
+            android:text="文件夹" />
+
+<!--         <ImageView -->
+<!--             android:id="@+id/item_project_child_name" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_gravity="right|center_vertical" -->
+<!--             android:src="@drawable/checked_normal" /> -->
+    </LinearLayout>
+
+</LinearLayout>

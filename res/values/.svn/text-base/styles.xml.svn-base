@@ -1,0 +1,245 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+	<style name="spinner_style">
+   	 	<item name="android:background">@drawable/input01_f</item>
+     	<item name="android:popupBackground">@drawable/input_box</item>
+    </style>
+     <style name="Theme" parent="AppBaseTheme">  
+         <item name="android:windowAnimationStyle">@style/noAnimation</item>  
+         <item name="android:windowNoTitle">true</item>  
+     </style>  
+     
+     <style name="Theme.AppStartLoad" parent="android:Theme">
+         <item name="android:windowBackground">@drawable/launch</item>
+         <item name="android:windowNoTitle">true</item>
+         <item name="android:windowFullscreen">true</item>
+     </style>
+
+<!--    <style name="myCatalogButton" parent="@android:style/ButtonBar">
+       <item name="android:background">@</item>
+   </style> -->
+    <style name="noAnimation">  
+        <item name="android:activityOpenEnterAnimation">@null</item>  
+        <item name="android:activityOpenExitAnimation">@null</item>  
+        <item name="android:activityCloseEnterAnimation">@null</item>  
+        <item name="android:activityCloseExitAnimation">@null</item>  
+        <item name="android:taskOpenEnterAnimation">@null</item>  
+        <item name="android:taskOpenExitAnimation">@null</item>  
+        <item name="android:taskCloseEnterAnimation">@null</item>  
+        <item name="android:taskCloseExitAnimation">@null</item> 
+        <item name="android:taskToFrontEnterAnimation">@null</item>  
+        <item name="android:taskToFrontExitAnimation">@null</item> 
+        <item name="android:taskToBackEnterAnimation">@null</item>  
+        <item name="android:taskToBackExitAnimation">@null</item>  
+           
+    </style>  
+      <style name="myspinner">
+        <!-- 此mycolor对应attrs.xml里定义的颜色属性 -->
+        <item name="android:textSize">6sp</item>e
+        
+    </style>
+        <!-- 白天主题模式 -->
+    <style name="mode1">
+        <!-- 此mycolor对应attrs.xml里定义的颜色属性 -->
+        <item name="background1">#3C404C</item>
+        <item name="TabUpLayout">#4B77BE</item>
+        <item name="bottomView">#3C404C</item>
+        <item name="bt_autorange_selector">@drawable/bt_autorange_selector</item>
+        <item name="bt_drive_selector">@drawable/bt_drive_selector</item>
+        <item name="bt_start_selector">@drawable/bt_start_selector</item> 
+        <item name="bt_stop_selector">@drawable/bt_stop_selector</item>         
+        <item name="bt_arm_selector">@drawable/bt_arm_selector</item>
+        <item name="bt_unarm_selector">@drawable/bt_unarm_selector</item>
+        <item name="bt_restart_selector">@drawable/bt_restart_selector</item>
+        <item name="bt_restartstop_selector">@drawable/bt_restartstop_selector</item>
+        <item name="bt_start_float_selector">@drawable/bt_start_float_selector</item>
+        <item name="bt_locking_selector">@drawable/bt_locking_selector</item>
+        <item name="bt_locking_f">@drawable/button_suoding_f</item>
+        <item name="bt_locking_n">@drawable/button_suoding_n</item>
+        <item name="bt_xunhuan_selector">@drawable/bt_xunhuan_selector</item>
+        <item name="biutton_xunhuan_n">@drawable/biutton_xunhuan_n</item>
+        <item name="biutton_xunhuan_f">@drawable/biutton_xunhuan_f</item>
+        <item name="bt_replay_float_selector">@drawable/bt_replay_float_selector</item>
+        <item name="bt_start_float_f">@drawable/button_xuanfu2_f</item>
+        <item name="bt_start_float_n">@drawable/button_xuanfu2_n</item>
+        <item name="bt_replay_float_f">@drawable/button_xuanfu_f</item>
+        <item name="bt_replay_float_n">@drawable/button_xuanfu_n</item>
+        <item name="algorithm_title">#ffffff</item>
+        <item name="mytext11">gggg</item>
+        <item name="mytext12">ggsagg</item>
+        <item name="btn_linealayout1">@drawable/btn_linealayout1</item>
+        <item name="lef_draw">#444A5B</item> 
+        <item name="oct">#272B34</item> 
+        <item name="fft">#272B34</item> 
+        <item name="ai">#272B34</item> 
+        <item name="colormap">#272B34</item> 
+        <item name="trigger">#272B34</item> 
+        <item name="display">#272B34</item> 
+        <item name="rpm">#272B34</item> 
+        <item name="order">#272B34</item> 
+        <item name="main_order">#272B34</item> 
+        <item name="signal">#272B34</item> 
+        <item name="spl">#272B34</item> 
+        <item name="bt_blue_selector">@drawable/bt_blue_selector</item>
+        <item name="bt_gray_selector">@drawable/bt_gray_selector</item>
+        <item name="spl_Layout">#9000</item>
+        <item name="all_title">#3C404C</item>
+        <item name="all_title_text">#ffffff</item>
+        <item name="display_delete">@drawable/ico_delete_n</item>     
+        <item name="back_button">@drawable/back_button</item>     
+        <item name="back_button1">@drawable/back_button</item>         
+                
+        <!-- 右侧拉 -->
+        <item name="cvu_selector_arrow_start_background">@drawable/cvu_selector_arrow_start_background</item>
+        <item name="cvu_selector_arrow_go_background">@drawable/cvu_selector_arrow_go_background</item>
+        <item name="cvu_listview_bkg">#3b3f4c</item>
+        <item name="cvu_selector_button">@drawable/cvu_selector_button</item>
+        <item name="cvu_enter">@drawable/enter</item>
+        <item name="cvu_load">@drawable/load</item>
+        <item name="cvu_add">@drawable/cvu_add</item>
+        <item name="cvu_edit">@drawable/cvu_edit</item>
+        <item name="cvu_delete">@drawable/cvu_delete</item>
+        <item name="cvu_cancel">@drawable/cvu_cancel</item>
+        <item name="cvu_all_normal">@drawable/cvu_all_normal</item>
+        <!-- 欢迎界面 -->
+        <item name="welcome_activity">#d8dde3</item>
+        <item name="wifi_dialog_bt">#547BB4</item>
+        <item name="top">@drawable/welcome_title_corners_bg</item>
+        <item name="title_windw_top">@drawable/title_windw_top</item> 
+        <item name="template_selection">@drawable/input01_f</item> 
+        <item name="blank_previous">@drawable/butt01_f</item>      
+        <item name="preference_setting">@drawable/ico_setup_n</item> 
+        <item name="pop_window1">@drawable/input_box</item>  
+        <item name="bt_dialog_close">@drawable/bt_dialog_close</item> 
+        <item name="addPage">@drawable/add_tab_btn</item> 
+        <item name="bt_landscrpe">@drawable/button_shu_selector</item>
+        <item name="bt_return">@drawable/button_quit_selector</item>
+        <item name="start_bt">@drawable/bt_blue_selector</item>
+        <item name="reject_bt">@drawable/bt_gray_selector</item>   
+        <item name="copy">@drawable/bt_blue_selector</item>   
+        <item name="paste">@drawable/bt_gray_selector</item>   
+        <item name="check_all">@drawable/bt_green_selector</item>  
+        <item name="noise_bt">@drawable/bt_blue_selector</item>   
+        <item name="vibration_bt">@drawable/bt_gray_selector</item>           
+        <item name="textColor">#FFFEFF</item>
+        <item name="imageView">#4B77BE</item><!-- 黑色 -->
+        <item name="imageView1">#3c404c</item><!-- 浅灰 -->
+        <item name="anologtext">#4B76C2</item>
+        <item name="anologtype">#D8DDE3</item>
+        <item name="enter">@drawable/bt_blue_selector</item>
+        <item name="leftdivider">@drawable/leftdivider</item>
+        <item name="input_box2">@drawable/input_box2</item>
+        <item name="popuWindowItem">@drawable/poplist_selector</item>
+                             <!--   <item name="cvu_selector_item_list">@drawable/cvu_selector_item_list</item> -->
+              <!-- <item name="left_child">#272B34</item> -->
+    </style>
+    <!-- 夜晚主题模式 -->
+    <style name="mode2">
+        <item name="background1">#C8C8C8</item>
+        <item name="TabUpLayout">#282b30</item>
+        <item name="bottomView">#e5e5e5</item>
+        <item name="bt_autorange_selector">@drawable/bt_autorange_selector1</item>
+        <item name="bt_drive_selector">@drawable/bt_drive_selector1</item>
+        <item name="bt_start_selector">@drawable/bt_start_selector1</item>
+        <item name="bt_stop_selector">@drawable/bt_stop_selector1</item>         
+        <item name="bt_arm_selector">@drawable/bt_arm_selector1</item>
+        <item name="bt_unarm_selector">@drawable/bt_unarm_selector1</item>
+        <item name="bt_restart_selector">@drawable/bt_restart_selector1</item>
+        <item name="bt_restartstop_selector">@drawable/bt_restartstop_selector1</item>
+        <item name="bt_start_float_selector">@drawable/bt_start_float_selector1</item>
+        <item name="bt_locking_selector">@drawable/bt_locking_selector1</item>
+        <item name="bt_locking_f">@drawable/button_suoding_f1</item>
+        <item name="bt_locking_n">@drawable/button_suoding_n1</item>
+        <item name="bt_xunhuan_selector">@drawable/bt_xunhuan_selector1</item>
+        <item name="biutton_xunhuan_n">@drawable/biutton_xunhuan_n1</item>
+        <item name="biutton_xunhuan_f">@drawable/biutton_xunhuan_f1</item>
+        <item name="bt_replay_float_selector">@drawable/bt_replay_float_selector1</item>
+        <item name="bt_start_float_f">@drawable/button_xuanfu2_f1</item>
+        <item name="bt_start_float_n">@drawable/button_xuanfu2_n1</item>
+        <item name="bt_replay_float_f">@drawable/button_xuanfu_f1</item>
+        <item name="bt_replay_float_n">@drawable/button_xuanfu_n1</item>
+        <item name="algorithm_title">#e5e5e5</item>
+        <item name="mytext11">ddd</item>
+        <item name="mytext12">ggccgg</item>
+        <item name="btn_linealayout1">@drawable/btn_linealayout3</item>
+        <item name="lef_draw">#f0eeef</item>    
+        <item name="oct">#d5d6d7</item> 
+        <item name="fft">#d5d6d7</item> 
+        <item name="ai">#d5d6d7</item> 
+        <item name="colormap">#d5d6d7</item> 
+        <item name="trigger">#d5d6d7</item> 
+        <item name="display">#d5d6d7</item> 
+        <item name="rpm">#d5d6d7</item> 
+        <item name="order">#d5d6d7</item> 
+        <item name="main_order">#d5d6d7</item> 
+        <item name="signal">#d5d6d7</item> 
+        <item name="spl">#d5d6d7</item> 
+        <item name="bt_blue_selector">@drawable/bt_green_selector</item>
+        <item name="bt_gray_selector">@drawable/bt_gray_selector1</item>
+        <item name="spl_Layout">#d5d6d7</item>
+        <item name="all_title">#f0eeef</item>
+        <item name="all_title_text">#000000</item>
+        <item name="display_delete">@drawable/ico_delete_f_skin2</item>
+        <item name="back_button">@drawable/back_button1</item>        
+        <item name="back_button1">@drawable/back_button2</item>  
+        <!-- 右侧拉 -->
+        <item name="cvu_selector_arrow_start_background">@drawable/cvu_selector_arrow_start_background1</item>
+        <item name="cvu_selector_arrow_go_background">@drawable/cvu_selector_arrow_go_background1</item>
+        <item name="cvu_listview_bkg">#f0eeef</item>
+        <item name="cvu_selector_button">@drawable/cvu_selector_button1</item>
+        <item name="cvu_enter">@drawable/enter1</item>
+        <item name="cvu_load">@drawable/load1</item>
+        <item name="cvu_add">@drawable/add1</item>
+        <item name="cvu_edit">@drawable/edit1</item>
+        <item name="cvu_delete">@drawable/delete1</item>
+        <item name="cvu_cancel">@drawable/cancel1</item>
+        <item name="cvu_all_normal">@drawable/all1</item>
+        <!-- 欢迎界面 -->
+        <item name="welcome_activity">#eceaeb</item> 
+        <item name="wifi_dialog_bt">#353940</item>
+        <item name="top">@drawable/welcome_title_corners_bg1</item> 
+        <item name="title_windw_top">@drawable/title_windw_top1</item> 
+        <item name="template_selection">@drawable/input01_f1</item> 
+        <item name="blank_previous">@drawable/butt01_f1</item> 
+        <item name="preference_setting">@drawable/bt_setting_selector</item>  
+        <item name="pop_window1">@drawable/input_box1</item>  
+        <item name="bt_dialog_close">@drawable/bt_dialog_close1</item>  
+        <item name="addPage">@drawable/add_tab_btn1</item>         
+        <item name="bt_landscrpe">@drawable/button_shu_selector1</item>
+        <item name="bt_return">@drawable/button_quit_selector1</item>
+        <item name="start_bt">@drawable/bt_blue_selector1</item>
+        <item name="reject_bt">@drawable/bt_gray_selector2</item>
+        <item name="copy">@drawable/bt_blue_selector1</item>   
+        <item name="paste">@drawable/bt_gray_selector2</item>   
+        <item name="check_all">@drawable/bt_gray_selector3</item>               
+        <item name="noise_bt">@drawable/bt_gray_selector3</item>   
+        <item name="vibration_bt">@drawable/bt_gray_selector3</item>                   
+        <item name="textColor">#4E4E4E</item>
+        <item name="imageView">#72767f</item><!-- 蓝色 -->
+        <item name="imageView1">#282B31</item><!-- #595e64 -->
+        <item name="anologtext">#4E4E4E</item>
+        <item name="anologtype">#e5e5e5</item>
+        <item name="enter">@drawable/bt_enter_selector</item>
+        <item name="leftdivider">@drawable/leftdivider1</item>
+        <item name="input_box2">@drawable/input_box2_skin2</item>
+        <item name="popuWindowItem">@drawable/poplist_selector1</item>
+          <!--  <item name="cvu_selector_item_list">@drawable/cvu_selector_item_list</item> -->
+         <!--    <item name="left_child">#d6d6d6</item> -->
+    </style>
+</resources>

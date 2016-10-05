@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <RelativeLayout
+        android:id="@+id/preparation"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:layout_height="30dp"
+        android:background="#FFFFFF" >
+
+        <CheckBox
+            android:id="@+id/Noise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="12dp"
+            android:textColor="#4E4E4E"
+            android:textSize="16dp"
+        	android:button="@drawable/analog_check"
+            android:text="@string/Noise" />
+
+        <CheckBox
+            android:id="@+id/Vibration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Noise"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="12dp"
+            android:textColor="#4E4E4E"
+            android:textSize="16dp"
+        	android:button="@drawable/analog_check"
+            android:text="@string/Vibration" />
+        
+        <CheckBox
+            android:id="@+id/AllChannel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Vibration"
+            android:layout_marginLeft="10dp"
+            android:paddingLeft="12dp"
+            android:textColor="#4E4E4E"
+            android:textSize="16dp"
+        	android:button="@drawable/analog_check"
+            android:text="@string/All_channels" />
+        
+        <CheckBox
+            android:id="@+id/HideChannel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:paddingLeft="12dp"
+            android:textColor="#4E4E4E"
+            android:textSize="16dp"
+        	android:button="@drawable/analog_check"
+            android:text="@string/Hidden_channels" />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:id="@+id/Type"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="?attr/anologtype"
+        android:orientation="horizontal"
+        android:layout_below="@+id/preparation">
+        
+        <TextView 
+            android:id="@+id/Chan"
+            android:layout_width="0dp"
+            android:layout_marginLeft="5dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:textColor="?attr/anologtext"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="13dp"
+            android:text="@string/Chan"/>
+        
+        <!-- 分组
+        	physical 意为：身体的、自然的 -->
+        <TextView 
+            android:id="@+id/Physical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="13dp"
+        	android:layout_marginLeft="10dp"
+        	android:textColor="?attr/anologtext"
+        	android:textStyle="bold"
+            android:text="@string/Physical"/>
+        
+        <TextView 
+            android:id="@+id/Transducer"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        	android:layout_marginLeft="5dp"
+        	android:textColor="?attr/anologtext"
+        	android:textStyle="bold"
+        	android:textSize="13dp"
+        	android:singleLine="true"
+            android:gravity="center"
+            android:text="@string/Transducer"/>
+        
+        <TextView 
+            android:id="@+id/Point"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        	android:layout_marginLeft="4dp"
+        	android:textColor="?attr/anologtext"
+        	android:textStyle="bold"
+        	android:textSize="13dp"
+            android:gravity="center"
+            android:text="@string/Point"/>
+        
+        <TextView 
+            android:id="@+id/Direction"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+        	android:layout_marginLeft="4dp"
+        	android:textColor="?attr/anologtext"
+        	android:textStyle="bold"
+        	android:textSize="13dp"
+            android:gravity="center_vertical"
+            android:text="@string/Direction"/>
+        
+        <TextView 
+            android:id="@+id/Coupling"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+        	android:layout_marginLeft="3dp"
+        	android:textColor="?attr/anologtext"
+        	android:textStyle="bold"
+        	android:textSize="13dp"
+            android:gravity="center_vertical"
+            android:text="@string/Coupling"/>
+        
+        <TextView 
+            android:id="@+id/Sensitivity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        	android:layout_marginLeft="10dp"
+        	android:textColor="?attr/anologtext"
+        	android:textStyle="bold"
+        	android:textSize="13dp"
+        	android:singleLine="true"
+            android:gravity="center_vertical"
+            android:text="@string/Sensitivity"/>
+        
+        <TextView 
+            android:id="@+id/Sensitivity_unit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+        	android:layout_marginLeft="14dp"
+        	android:textColor="?attr/anologtext"
+        	android:textStyle="bold"
+        	android:singleLine="true"
+        	android:textSize="13dp"
+            android:gravity="center_vertical"
+            android:text="@string/Sensitivity_unit"/>
+        
+        <TextView 
+            android:id="@+id/Range"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:textColor="?attr/anologtext"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:layout_weight="0.8"
+        	android:layout_marginLeft="0dp"
+            android:gravity="center_vertical"
+            android:text="@string/Range"/>
+        
+    </LinearLayout>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        	android:layout_below="@+id/Type"
+        	android:layout_above="@+id/Edit"
+        	android:id="@+id/chan_scrollView"
+        	android:background="#FFFFFF" >
+
+            <LinearLayout
+                android:id="@+id/ChannelList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+            </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/Edit"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_alignParentBottom="true" >
+        
+        <Button 
+            android:id="@+id/Copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/copy"
+            android:textColor="#FFFEFF"
+            android:layout_marginRight="15dp"
+            android:text="@string/Copy"/>
+        
+        <Button 
+            android:id="@+id/Paste"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Copy"
+            android:layout_marginRight="15dp"
+            android:background="?attr/paste"
+            android:textColor="#FFFEFF"
+            android:text="@string/Paste"/>
+        
+        <Button 
+            android:id="@+id/CheckAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Paste"
+            android:background="?attr/check_all"
+            android:text="@string/CheckAll"
+            android:textColor="?attr/textColor"/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

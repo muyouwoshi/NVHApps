@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:paddingBottom="@dimen/activity_vertical_margin"
+   		 	    android:id="@+id/equipmentLayout"
+        		android:layout_width="match_parent"
+        		android:layout_height="match_parent">
+     <TextView
+            android:id="@+id/connect_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#333666"
+    		android:textSize="16dp"   
+            android:text="@string/Connected_to" />
+     <TextView
+            android:id="@+id/connect_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/connect_message"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:textColor="#333666"
+    		android:textSize="16dp"    />
+     	<View
+            android:id="@+id/line1"
+        	android:layout_width="match_parent"
+        	android:layout_height="0.3dp"
+        	android:background="#EDEDED"
+            android:layout_below="@+id/connect_message" />
+       <LinearLayout
+           	android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+           	android:layout_below="@+id/line1" 
+            android:layout_height="40dp" >
+     <RelativeLayout
+         android:layout_width="0dp"
+         android:layout_weight="1"
+    	 android:layout_height="match_parent">
+       <TextView
+            android:id="@+id/Default"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:textColor="#333666"
+    		android:textSize="16dp"   
+            android:text="@string/Default" />
+       <TextView
+            android:id="@+id/Front_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/Default"
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textColor="#333666"
+    		android:textSize="16dp"   
+            android:text="@string/Front_end" />
+       </RelativeLayout>
+       <TextView
+            android:id="@+id/Main_Configuration"
+            android:layout_width="0dp"
+         	android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#333666"
+    		android:textSize="16dp"   
+            android:text="@string/Main_Configuration" />
+        </LinearLayout>
+      <View
+            android:id="@+id/line"
+        	android:layout_width="match_parent"
+        	android:layout_height="0.3dp"
+        	android:background="#EDEDED"
+            android:layout_below="@+id/title" />
+        <ListView
+            android:id="@+id/equipment_view"
+            android:layout_below="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+</RelativeLayout>

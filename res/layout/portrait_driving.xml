@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:baselineAligned="false"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drive_layout"
+    android:orientation="vertical" 
+    android:layout_weight="5"
+	android:background="#FFFFFF" >
+	<TextView
+		    android:id="@+id/drive_title"
+		    android:layout_width="match_parent"
+		    android:layout_weight="0.5"
+		    android:layout_height="0dp"
+		    android:paddingLeft="8dp"
+		    android:text="驾驶模式"
+		    android:gravity="center_vertical"
+		    android:textColor="#FFFFFF"
+		    android:background="#4B77BE" />
+     <LinearLayout
+       			android:id="@+id/algorithm"
+       			android:layout_width="match_parent"
+       			android:layout_height="0dp"
+       			android:layout_weight="2"
+       			android:orientation="vertical" >
+	<TextView
+		    android:id="@+id/algorithm_title"
+		    android:layout_width="match_parent"
+		    android:layout_height="30dp"
+		    android:paddingLeft="8dp" />
+	
+     <android.support.v4.view.ViewPager
+		    android:id="@+id/algorithm_view"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="#FFFFFF" />
+	  </LinearLayout>
+	  <LinearLayout 
+            android:id="@+id/rpm"
+			android:layout_width="match_parent"  
+			android:layout_height="0dp"  
+			android:layout_weight="1"
+			android:gravity="center_horizontal"
+			android:background="#D8DDE3"
+			android:orientation="vertical">   
+        <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textSize="80px" 
+		    android:text="RPM"
+		    android:textStyle="bold"
+		    android:textColor="#191816"/>
+         <TextView
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_horizontal"
+		    android:textSize="100px" 
+		    android:layout_marginTop="5dp"
+		    android:text="978.546"
+		    android:textColor="#32A969"/>   
+		</LinearLayout>
+		 <bottom.drawer.VerticalViewPager
+          android:id="@+id/channel_view"
+          android:layout_weight="1"
+          android:layout_gravity="center"
+          android:layout_marginTop="10dp"
+          android:layout_width="match_parent"
+          android:layout_height="0dp"/>
+		 <LinearLayout
+      		android:id="@+id/bt"
+      		android:layout_width="match_parent"
+      		android:layout_height="0dp"
+      		android:layout_weight="0.8"
+      		android:orientation="horizontal"
+      		android:background="#FFFFFF" >
+	     <ImageButton
+			    android:id="@+id/bt_landscrpe"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:contentDescription="@string/app_name"
+	            android:layout_height="wrap_content"
+	            android:src="@drawable/button_heng_selector"
+	            android:layout_gravity="center"
+	            android:background="#00000000"
+	            android:focusable="true" />
+	      <ImageButton
+	            android:id="@+id/startMode"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:layout_gravity="center"
+	            android:contentDescription="@string/app_name"
+	            android:src="@drawable/drive_button_play_n"
+	            android:background="#00000000"
+	            android:focusable="true"/> 
+	     <ImageButton
+	            android:id="@+id/bt_return"
+	         	android:layout_height="wrap_content"
+	            android:layout_width="0dp"
+	            android:layout_weight="1"
+	            android:layout_gravity="center"
+	            android:contentDescription="@string/app_name"
+	            android:src="@drawable/button_quit_selector"
+	            android:background="#00000000"
+	            android:focusable="true" />  
+	            </LinearLayout>  
+</LinearLayout>

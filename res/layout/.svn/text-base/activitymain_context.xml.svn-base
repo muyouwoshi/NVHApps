@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/algorithm_title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginBottom="5dp"
+        android:background="?attr/algorithm_title"
+        android:paddingLeft="8dp" >
+
+        <!--
+             <Spinner
+	        android:id="@+id/algorithm_spinner"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_width="wrap_content"
+	        android:layout_height="match_parent" />
+        -->
+	<RelativeLayout
+        android:id="@+id/algorithm_spinner_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/algorithm_spinner"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/algorithm_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/algorithm_spinner"
+            android:background="@drawable/jian2" />
+	</RelativeLayout>
+	<RelativeLayout
+        android:id="@+id/channal_spinner_layout"
+        android:layout_width="wrap_content"
+        android:layout_toRightOf="@+id/algorithm_spinner_layout"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/channal_spinner"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"          
+            android:gravity="center"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/channel_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/channal_spinner"
+            android:background="@drawable/jian2"
+            android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/mainline"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/algorithm_title"
+        android:background="#CFCFCF" />
+
+    <RelativeLayout
+        android:id="@+id/algorithm_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainline" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cursor_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mainline" >
+
+        <com.example.mobileacquisition.RulerView
+            android:id="@+id/ruler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50px"
+            android:layout_marginLeft="50px" />
+
+        <ImageButton
+            android:id="@+id/ruler_button"
+            android:layout_width="50px"
+            android:layout_height="30px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="25px"
+            android:background="@drawable/ico_biaochi01" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/legend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_tuli"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="@string/legend" />
+
+</RelativeLayout>

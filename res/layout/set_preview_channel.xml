@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="15dp">
+   <LinearLayout
+        android:id="@+id/Type"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/chan_number"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Physical_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+        	android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Transducer_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.1"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Point_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Direction_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.9"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Coupling_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Sensitivity_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Unit_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+        <TextView 
+            android:id="@+id/Range_Preview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#33FF33" />
+        
+    </LinearLayout>
+</RelativeLayout>

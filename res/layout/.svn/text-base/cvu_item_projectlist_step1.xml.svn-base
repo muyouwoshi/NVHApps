@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- measurements列表的groupitem -->
+    
+    <LinearLayout
+          android:id="@+id/cvu_selector_step1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+<!-- android:background="@drawable/cvu_selector_item_list" -->
+        <ImageView
+            android:id="@+id/item_project_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cvu_folder" />
+
+        <TextView
+            android:id="@+id/item_project_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:singleLine="true"
+        android:textColor="@color/cvu_text_color"
+            android:text="文件夹" />
+
+        <ImageView
+            android:id="@+id/item_project_del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cvu_delete"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:visibility="gone" />
+
+        <ImageView            android:id="@+id/item_project_load"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/cvu_load"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/item_project_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cvu_checked_normal"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>

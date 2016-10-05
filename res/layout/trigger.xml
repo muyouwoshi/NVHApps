@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Trigger_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/trigger" >
+
+    <TextView
+        android:id="@+id/Trigger_title"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="?attr/all_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/Trigger"
+        android:textColor="?attr/all_title_text"/>
+
+    <ImageButton
+        android:id="@+id/Back_Trig"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="?attr/back_button" 
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/Trig_Mode"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/Trigger_title"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/Mode"
+        android:textColor="?attr/all_title_text"/>
+
+    <Spinner
+        android:id="@+id/Mode_spinner"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/Trigger_title"
+        android:layout_marginRight="5dp"
+        android:entries="@array/Trigger_Mode"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/TrigMode_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/Trig_Mode"
+        android:background="#3C404C" />
+    <!-- ==========================非Time模式下的布局显示 ========================== -->
+    <RelativeLayout
+        android:id="@+id/Not_Time"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:visibility="gone"
+    	android:layout_below="@+id/TrigMode_Line">
+    <!-- ==========================Lower ========================== -->
+
+    <TextView
+        android:id="@+id/Lower"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/Lower"
+        android:textColor="?attr/all_title_text"/>
+
+    <EditText
+        android:id="@+id/TriggerLower_edit"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/OvTriggerLower_unit"
+        android:singleLine="true"
+        android:digits="9876543210."
+        android:background="@drawable/input" />
+
+    <TextView
+        android:id="@+id/OvTriggerLower_unit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="2dp"
+        android:text="@string/RPM"
+        android:textColor="?attr/all_title_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Lower_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/Lower"
+        android:background="#3C404C" />
+    <!-- ==========================Upper========================== -->
+
+    <TextView
+        android:id="@+id/Upper"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/OvTriggerLower_unit"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/Upper"
+        android:textColor="?attr/all_title_text"/>
+
+    <EditText
+        android:id="@+id/TriggerUpper_edit"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/OvTriggerLower_unit"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/OvTriggerUpper_unit"
+        android:singleLine="true"
+        android:digits="9876543210."
+        android:background="@drawable/input" />
+
+    <TextView
+        android:id="@+id/OvTriggerUpper_unit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/OvTriggerLower_unit"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="@string/RPM"
+        android:textColor="?attr/all_title_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Upper_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/Upper"
+        android:background="#3C404C" />
+    <!-- ==========================Step========================== -->
+
+    <TextView
+        android:id="@+id/Step"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/OvTriggerUpper_unit"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/Step"
+        android:textColor="?attr/all_title_text"/>
+
+    <EditText
+        android:id="@+id/Trigger_Step_edit"
+        android:layout_width="90dp"
+        android:layout_height="25dp"
+        android:layout_below="@+id/OvTriggerUpper_unit"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/Step_unit"
+        android:singleLine="true"
+        android:digits="9876543210."
+        android:background="@drawable/input" />
+
+    <TextView
+        android:id="@+id/Step_unit"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/OvTriggerUpper_unit"
+        android:layout_marginRight="2dp"
+        android:gravity="center"
+        android:text="@string/RPM"
+        android:textColor="?attr/all_title_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Step_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/Step"
+        android:background="#3C404C" />
+    </RelativeLayout>
+    <!-- ==========================Type========================== -->
+ <RelativeLayout
+        android:id="@+id/Type_layout"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/Not_Time">
+    <TextView
+        android:id="@+id/Type"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/Type"
+        android:textColor="?attr/all_title_text"/>
+
+  <Spinner
+        android:id="@+id/Type_spinner"
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        
+        android:layout_marginRight="5dp"
+        android:entries="@array/Trigger_Time_Type"
+        android:spinnerMode="dropdown" />
+    <TextView
+        android:id="@+id/Type_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/Type"
+        android:background="#3C404C" />
+    <!--=====================Duration布局=============  -->
+   <RelativeLayout
+        android:id="@+id/Duration_layout"
+        android:visibility="gone"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/Type_Line">
+    <TextView
+        android:id="@+id/Duration"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:text="@string/Duration"
+        android:textColor="?attr/all_title_text"/>
+
+    <EditText
+        android:id="@+id/Trigger_Duration_edit"
+        android:layout_width="99dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="5dp"
+        android:layout_toLeftOf="@+id/Duration_unit"
+        android:singleLine="true"
+        android:digits="0123456789."
+        android:background="@drawable/input" />
+    <TextView
+        android:id="@+id/Duration_unit"
+        android:layout_width="30dp"
+        android:layout_height="30dp" 
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:layout_marginRight="5dp"
+        android:text="s"
+        android:textColor="?attr/all_title_text"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/Duration_Line"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_below="@+id/Duration"
+        android:background="#3C404C" />
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

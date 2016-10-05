@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="15dp">
+   <LinearLayout
+        android:id="@+id/set_preview_chan1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/preview_chan1"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/chan1" />
+        
+        <TextView 
+            android:id="@+id/threshold1_text_Preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+        	android:text="@string/Threshold" />
+        
+        <TextView 
+            android:id="@+id/threshold1_value_Preview"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+        	android:gravity="left|center"
+        	android:paddingLeft="5dp"
+            android:textColor="#33FF33"/>
+        
+        <!-- <TextView 
+            android:id="@+id/threshold1_unit_Preview"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+        	android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:text="V"  /> -->
+        
+        <TextView 
+            android:id="@+id/pluse1_text_Preview"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/text_Pulse" />
+        
+        <TextView 
+            android:id="@+id/pluse1_value_Preview"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:paddingLeft="5dp"
+            android:textColor="#33FF33" />
+        
+    </LinearLayout>
+    
+   <LinearLayout
+        android:id="@+id/set_preview_chan2"
+        android:layout_below="@+id/set_preview_chan1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal">
+        
+        <TextView 
+            android:id="@+id/preview_chan2"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/chan2" />
+        
+        <TextView 
+            android:id="@+id/threshold2_text_Preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+        	android:text="@string/Threshold" />
+        
+        <TextView 
+            android:id="@+id/threshold2_value_Preview"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:paddingLeft="5dp"
+            android:textColor="#33FF33"/>
+        
+        <!-- <TextView 
+            android:id="@+id/threshold2_unit_Preview"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+        	android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:text="V"  /> -->
+        
+        <TextView 
+            android:id="@+id/pluse2_text_Preview"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+        	android:layout_marginLeft="14dp"
+            android:gravity="center_vertical"
+            android:text="@string/text_Pulse" />
+        
+        <TextView 
+            android:id="@+id/pluse2_value_Preview"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="left|center"
+            android:paddingLeft="5dp"
+            android:textColor="#33FF33" />
+        
+    </LinearLayout>
+</RelativeLayout>
